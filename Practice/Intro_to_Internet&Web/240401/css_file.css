@@ -1,0 +1,4 @@
+body {text-align: center; background-color: antiquewhite; color: black; margin-left: 30px; margin-right: 30px;}
+h3 {text-align: center; color: darkred; font-size: 40px; }
+h3:hover {background-color: brown;}
+span { color: orangered; font-size: 30px; font-weight: bold;}

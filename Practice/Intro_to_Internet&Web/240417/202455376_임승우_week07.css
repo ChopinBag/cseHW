@@ -1,0 +1,132 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+h2 {
+    margin: 0px;
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+header {
+    background-color: black; 
+    color: white; 
+    font-size: 42px;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    animation-name: HeaderColorChanging;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+nav {
+    background-color: grey;
+    margin: 0px;
+}
+@keyframes HeaderColorChanging {
+    0% {color: blue;}
+    50% {color: green;}
+    100% {color:red;}
+}
+@keyframes HoverColor {
+    from {background-color: grey; color: #ddd;}
+    to {background-color: #ddd; color: black;}
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 16px;
+}
+li > a {
+    text-decoration: none; 
+    color: white; 
+    font-style: italic;
+    padding: 15px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: 20px;
+}
+li > a:hover  {
+    animation-name: HoverColor;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    font-style: normal;
+}
+
+
+#home {
+    background: mistyrose;
+    text-align: center;
+    padding: 10px;
+}
+#home > iframe {width: 560px; height: 315px;}
+.profile_box {
+    text-align: center; 
+    border: 1px; 
+    border-style: solid; 
+    width: 200px; 
+    padding: 10px; 
+    margin: 20px; 
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+#profile>p:hover {
+    scale: 110%;
+    background-color: #f0f0f0;
+}
+.profile_box > span > img {
+    background-color: white; 
+    width: 200px; 
+    height: 200px;
+    border-radius: 70%;
+}
+
+#timetable > table {
+    margin-left: auto; 
+    margin-right: auto; 
+    table-layout: fixed; 
+    border:2px; 
+    width: 700px; 
+    text-align: center; 
+    border-color: black; 
+    border-style: solid;
+    border-collapse: collapse;
+}
+tr {
+    height: 100px;
+}
+
+th, td {
+    border: 1px; 
+    border-style: dotted;
+}
+thead {
+    background-color: #f97794;
+    font-size: 20px;
+}
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+input {
+    border: solid  skyblue;
+    border-radius: 5px;
+    border-width: 2px;
+}
+input:focus {
+    background-color: aliceblue;
+    color: blue;
+}
+
+#lab {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: linear-gradient(#f97794, #623AA2);
+    color: white;
+}
+#lab>a:visited{color: yellowgreen;}

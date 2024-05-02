@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 색이 바뀌는 표</title>
+        <meta charset="utf-8">
+        <style>
+            table { /*(0,0,0,1)*/
+                 border-collapse: collapse;
+                }
+            td { /*(0,0,0,1)*/
+                text-align: center;
+                padding: 5px;
+                height: 15px;
+                width: 100px;
+            }
+            thead, tfoot { /*(0,0,0,1)*/
+                background-color: darkgrey;
+                color: yellow;
+            }
+            tbody tr:nth-child(even) { /*(0,0,1,2)*/
+                background: skyblue;
+            }
+            tbody tr:hover { /*(0,0,1,2)*/
+                background: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr> <td>이름</td> <td>html</td> <td>css</td> </tr>
+            </thead>
+            <tbody>
+                <tr> <td>김찬호</td> <td>100</td> <td>70</td> </tr>
+                <tr> <td>손인욱</td> <td>50</td> <td>130</td> </tr>
+                <tr> <td>정상길</td> <td>50</td> <td>30</td> </tr>
+                <tr> <td>장지환</td> <td>100</td> <td>70</td> </tr>
+            </tbody>
+            <tfoot>
+                <tr> <td>합</td> <td>300</td> <td>300</td> </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>MyFirstHomepage</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<header>
+	<h1 title="202455376 임승우">202455376 임승우</h1>
+	<hr>
+	<p>
+	<h2 title="Profile">Profile</h2>
+		<a href="https://onestop.pusan.ac.kr/main">
+		<img src="https://www.pusan.ac.kr/_contents/kor/_Img/07Intro/ui04.jpg" alt="부산대학교 로고" width="100" height="100"> 
+		</a>
+		<br>
+		<b>Seungwoo Lim</b>
+	</p>
+	<p>
+Hello! Welcome to my homepage.<br>
+I am an undergraduate student at Pusan National University.<br>
+I am majoring in Computer Engineering.<br>
+I created this homepage to organize and share what I've learned.<br>
+	</p>
+	</header>
+	<hr>
+	<nav>
+		<h2>Contents</h2>
+		<ul>
+			<li><a href="#intro">Intro</a></li>
+			<li><a href="#time">Time Table</a></li>
+			<li><a href="#user">User Data Submission</a></li>
+		</ul>
+	</nav>
+	<hr>
+	<section>
+		<article>
+			<h2 id="intro">Intro</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/fI_SJB-YFKI?si=U6pJA3-jVEBfAR9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</article>
+		<hr>
+		<article>
+			<p>
+				<h2 title="Time Table" id="time">Time Table</h2>
+				<table border="1" width="700" style="table-layout: fixed;">
+					<caption>First Semester</caption>
+					<thead>
+						<tr>
+							<th>-</th> <th>Mon</th> <th>Tue</th> <th>Wed</th> <th>Thu</th> <th>Fri</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr height="100">
+							<th>09:00~10:15</th> <th>일반물리학</th> <th>-</th> <th>일반물리학</th> <th>-</th> <th>-</th>
+						</tr>
+
+						<tr height="100">
+							<th>10:30~12:15</th> <th>컴퓨팅사고와인공지능</th> <th>컴퓨터프로그래밍입문</th> <th>-</th> <th>컴퓨터프로그래밍입문</th> <th>대학영어</th>
+						</tr>
+				
+						<tr height="100">
+							<th>13:30~14:45</th> <th>인터넷과웹기초</th> <th>이산수학</th> <th>인터넷과웹기초</th> <th>이산수학</th> <th>-</th>
+						</tr>
+
+						<tr height="100">
+							<th>16:30~17:45</th> <th>-</th> <th>공학미적분학</th> <th>-</th> <th>공학미적분학</th> <th>-</th>
+						</tr>
+					</tbody>
+				</table>
+			</p>
+		</article>
+	<hr>
+		<article>
+			<h2 id="user">User Data Submission</h2>
+			<form action="http://10.125.34.49:6519/submit-form" method="post">
+			<fieldset>
+				<legend>정보 입력</legend>
+				이름 : <input name="name"> <br>
+				생년월일 : <input type="date" name="birthdate"> <br>
+				이메일 : <input type="email" name="email" placeholder="id@host"> <br>
+				전화번호 : <input type="tel" name="tel" placeholder="01000000000"> <br>
+				학과 : <select name="major">
+					<option value="1" name="major" selected>컴퓨터공학과</option>
+					<option value="2" name="major">영어영문학과</option>
+					<option value="3" name="major">수학과</option>
+					<option value="4" name="major">통계학과</option>
+					<option value="5" name="major">기계공학과</option>
+					<option value="6" name="major">IT융합공학과</option>
+					<option value="7" name="major">경영학과</option>
+					<option value="8" name="major">경제학과</option>
+				</select><br>
+				학년 : <input type="radio" name="degree" value="1" checked>Freshman
+				<input type="radio" name="degree" value="2">Sophomore
+				<input type="radio" name="degree" value="3">Junior
+				<input type="radio" name="degree" value="4">Senior
+				<br>
+				좋아하는 계절 : <input type="radio" name="season" value="1">Spring
+				<input type="radio" name="season" value="2">Summer
+				<input type="radio" name="season" value="3">Autumn
+				<input type="radio" name="season" value="4">Winter
+				<br>
+				<button type="submit">제출</button>
+				<button type="reset">취소</button>
+			</fieldset>
+			</form>
+		</article>
+	</section>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+.black {background-color: black;}
+.white {background-color: white;}
+.blue {background-color: blue;}
+.red {background-color: red;}
+.yellow {background-color: yellow;}
+
+#b1 {width: 600px; height: 10px;}
+#b2 {width: 10px; height: 70px; top: 10px;}
+#b3 {width: 10px; height: 70px; top: 10px; left: 178px;}
+#b4 {width: 10px; height: 70px; top: 10px; left: 412px;}
+#b5 {width: 10px; height: 70px; top: 10px; left: 590px;}
+#b6 {width: 600px; height: 10px; top: 80px;}
+#b7 {width: 10px; height: 75px; top: 90px;}
+#b8 {width: 10px; height: 75px; top: 90px; left: 42px;}
+#b9 {width: 10px; height: 75px; top: 90px; right: 238px;}
+#b10 {width: 10px; height: 75px;top: 90px; right: 124px;}
+#b11 {width: 10px; height: 75px; top: 90px; right: 0px;}
+#b12 {width: 10px; height: 10px; top: 165px; left: 0px;}
+#b13 {width: 10px; height: 10px; top: 165px; left: 42px;}
+#b14 {width: 248px; height: 10px; top: 165px; right: 0px;}
+#b15 {width: 10px; height: 195px; top: 175px; left: 0px;}
+#b16 {width: 10px; height: 195px; top: 175px; left: 42px;}
+#b17 {width: 10px; height: 195px; bottom: 230px; right: 238px;}
+#b18 {width: 10px; height: 195px; bottom: 230px; right: 0px;}
+#b19 {width: 600px; height: 10px; bottom: 220px;}
+#b20 {width: 10px; height: 210px; bottom: 10px; left: 0px;}
+#b21 {width: 10px; height: 210px; bottom: 10px; right: 238px;}
+#b22 {width: 10px; height: 210px; bottom: 10px; right: 0px;}
+#b23 {width: 600px; height: 10px; bottom: 0px;}
+
+#y1 {width: 168px; height: 70px; top: 10px; left: 422px;}
+#y2 {width: 104px; height: 75px; top: 90px; right: 134px;}
+
+#w1 {width: 168px; height: 70px; top: 10px; left: 10px;}
+#w2 {width: 224px; height: 70px; top: 10px; left: 188px;}
+#w3 {width: 32px; height: 75px; top: 90px; left: 10px;}
+#w4 {width: 114px; height: 75px; top: 90px; right: 10px;}
+#w5 {width: 32px; height: 10px; top: 165px; left: 10px;}
+#w6 {width: 32px; height: 195px; top: 175px; left: 10px;}
+#w7 {width: 228px; height: 210px; bottom: 10px; right: 10px;}
+
+#r1 {width: 300px; height: 75px; top: 90px; left: 52px;}
+#r2 {width: 300px; height: 10px; top: 165px; left: 52px;}
+#r3 {width: 300px; height: 195px; top: 175px; left: 52px;}
+
+#blue1 {width: 228px; height: 195px; bottom: 230px; right: 10px;}
+#blue2 {width: 342px; height: 210px; bottom: 10px; left: 10px;}
+
+
+div {
+    font-size: 0px;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    box-shadow: 0px 0px 50px yellowgreen;
+    vertical-align :top;
+}
+
+div>div {
+    box-shadow: none;
+    position: absolute;
+}

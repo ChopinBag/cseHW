@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="202455376_임승우_week05.css">
+    </head>
+    <body>
+        <header>
+            Homepage
+        </header>
+        <nav id="contents">
+            <ul>
+                <li><a href="#home">Main</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#timetable">Time Table</a></li>
+                <li><a href="#UserDataSubmission">User Data Submission</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <article id="home">
+            <h2>Main</h2>
+            <p>
+                Hello! Welcome to my homepage.<br>
+                I am an undergraduate student at Pusan National University.<br>
+                I am majoring in Computer Engineering.<br>
+                I created this homepage to organize and share what I've learned.<br>
+            </p>
+            <iframe src="https://www.youtube.com/embed/fI_SJB-YFKI?si=U6pJA3-jVEBfAR9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
+        <hr>
+        <article id="profile">
+            <h2>Profile</h2>
+            <p class="profile_box">
+                <span>
+                    <img src="image/pnu.jpg" alt="부산대학교 로고" width="100">  <br>
+                    202455376<br>
+                    Seungwoo Lim<br>
+                </span>
+            </p>
+        </article>
+        <hr>
+        <article id="timetable">
+            <h2>Time table</h2>
+            <p>
+				<table>
+					<caption>First Semester</caption>
+					<thead>
+						<tr>
+							<th>-</th> <th>Mon</th> <th>Tue</th> <th>Wed</th> <th>Thu</th> <th>Fri</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="odd">
+							<th>09:00~10:15</th> <th>일반물리학</th> <th>-</th> <th>일반물리학</th> <th>-</th> <th>-</th>
+						</tr>
+
+						<tr>
+							<th>10:30~12:15</th> <th>컴퓨팅사고와인공지능</th> <th>컴퓨터프로그래밍입문</th> <th>-</th> <th>컴퓨터프로그래밍입문</th> <th>대학영어</th>
+						</tr>
+				
+						<tr class="odd">
+							<th>13:30~14:45</th> <th>인터넷과웹기초</th> <th>이산수학</th> <th>인터넷과웹기초</th> <th>이산수학</th> <th>-</th>
+						</tr>
+
+						<tr>
+							<th>16:30~17:45</th> <th>-</th> <th>공학미적분학</th> <th>-</th> <th>공학미적분학</th> <th>-</th>
+						</tr>
+					</tbody>
+				</table>
+			</p>
+        </article>
+        <hr>
+        <article id="UserDataSubmission">
+            <h2>User Data Submission</h2>
+			<form action="http://10.125.34.49:6519/submit-form" method="post">
+			<fieldset>
+				<legend>정보 입력</legend>
+				이름 : <input name="name"> <br>
+				생년월일 : <input type="date" name="birthdate"> <br>
+				이메일 : <input type="email" name="email" placeholder="id@host"> <br>
+				전화번호 : <input type="tel" name="tel" placeholder="01000000000"> <br>
+				학과 : <select name="major">
+					<option value="1" name="major" selected>컴퓨터공학과</option>
+					<option value="2" name="major">영어영문학과</option>
+					<option value="3" name="major">수학과</option>
+					<option value="4" name="major">통계학과</option>
+					<option value="5" name="major">기계공학과</option>
+					<option value="6" name="major">IT융합공학과</option>
+					<option value="7" name="major">경영학과</option>
+					<option value="8" name="major">경제학과</option>
+				</select><br>
+				학년 : <input type="radio" name="degree" value="1" checked>Freshman
+				<input type="radio" name="degree" value="2">Sophomore
+				<input type="radio" name="degree" value="3">Junior
+				<input type="radio" name="degree" value="4">Senior
+				<br>
+				좋아하는 계절 : <input type="radio" name="season" value="1">Spring
+				<input type="radio" name="season" value="2">Summer
+				<input type="radio" name="season" value="3">Autumn
+				<input type="radio" name="season" value="4">Winter
+				<br>
+				<button type="submit">제출</button>
+				<button type="reset">취소</button>
+			</fieldset>
+			</form>
+        </article>
+        <hr>
+        <footer>
+            제공 : <a href="https://sites.google.com/view/dtnlab/home">Digital Twin Network 연구실</a>
+        </footer>
+    </body>
+</html>
