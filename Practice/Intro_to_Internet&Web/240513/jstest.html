@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            /*let bigbang = {};
+            bigbang.rapper = 'TOP';
+            bigbang.leader = 'GD';
+            bigbang.leadvocal = 'taeyang';
+            bigbang.subvocal = 'daesung';
+            bigbang.memberNum = 4;
+
+            let IU = {
+                name : '이지은',
+                age : 32
+            };
+            document.write(JSON.stringify(bigbang));
+            bigbang.prevMember = "win";
+            document.write(JSON.stringify(bigbang));
+            delete bigbang.prevMember;
+            document.write(JSON.stringify(bigbang));
+            */
+           let car1 = new Object();
+           car1.owner = 'John';
+           car1.maker = 'BMW';
+           car1.oil = 'dizel';
+           car1.nickname = '중고차'
+           car1.nicknames = function() {
+            return this.nickname;
+           };
+
+           let car2 = {
+            owner : 'Heo su',
+            maker : 'KIA',
+            oil : 'dizel',
+            price : 20000,
+            value : function(flaw) {
+                this.price -= flaw;
+            },
+           };
+
+    
+           function LCKTeam(name, sponser) {
+            this.grade = '등수'
+            this.star = '대표선수'
+            this.property = '특징'
+           };
+
+        </script>
+    </head>
+    <body>
+        <script>
+        /*let week = new Array;
+        for (let i = 0; i < 7; i++) {
+            week[i] = i
+        }
+        document.write(week)*/
+        let now = new Date();
+        let startDay = new Date(2023, 2, 1);
+
+        document.write(JSON.stringify(car1));
+        document.write("<br>");
+        document.write(car1.nicknames());
+        document.write("<br>");
+        document.write(JSON.stringify(car2));
+        document.write("<br>");
+        car2.value(6000);
+        document.write(car2.price);
+        </script>
+    </body>
+</html> 
