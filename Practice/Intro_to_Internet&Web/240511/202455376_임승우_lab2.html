@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>adder</title>
+    <script>
+        const MAX = 40
+        const MIN = 0
+        function adder(n) {
+            let a=1;
+            let sum = 0;
+            while (a<=n) {
+                sum += a;
+                a++;
+            }
+            return sum;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        let n = parseInt(prompt('0에서 40 사이의 숫자를 입력하세요.'))
+        if (n > MAX) {
+            alert('값이 너무 큽니다!');
+        }
+        else if (n < MIN){
+            alert('값이 너무 작습니다!');
+        }    
+        else if (isNaN(n)) {
+            alert('값이 숫자가 아닙니다!');
+        }
+        else {
+            document.write(n+'까지의 값의 합은 ' + adder(n) +' 입니다.');
+        }
+    </script>
+</body>
+</html>

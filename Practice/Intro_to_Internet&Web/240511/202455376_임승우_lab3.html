@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculate</title>
+    <script>
+        function calc() {
+            let exp = prompt('수식을 입력하세요');
+            try {
+                let result = eval(exp);
+                document.write("<span>'" + exp + "'의 결과는 " + result + "</span>");
+            }  
+            catch (error) {
+                document.write('<span>유효하지 않은 수식입니다.</span>')
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="calc()">시작</button>
+</body>
+</html>
