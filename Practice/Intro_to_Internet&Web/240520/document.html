@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function create() {
+            let parent = document.getElementById('parent'); // Get the parent element
+            
+            let newObj = document.createElement('div'); // Create a new div element
+            newObj.id = 'new'; // Set the id of the new element
+            newObj.innerHTML = '새로 생성된 DOM 객체'; // Set the inner HTML of the new element
+            newObj.setAttribute('class', 'NewClass'); // Set the class of the new element
+            newObj.style.backgroundColor = 'yellow'; // Set the background color of the new element
+            parent.appendChild(newObj); // Append the new element to the parent
+
+            newObj.onclick = function()
+        }
+    </script>
+</head>
+
+<body>
+    <div> 메소드를 이용하여 DOM 객체를 생성, 삭제하는 예제</div>
+    <button onclick="create()">객체 추가</button>
+    <div id="parent"></div> <!-- Added this parent element -->
+</body>
+</html>
