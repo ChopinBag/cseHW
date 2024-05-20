@@ -3,72 +3,75 @@
     <head>
         <meta charset="utf-8">
         <script>
-            let balance = 0;
-            let updatetime = '';
-            let owner = '';
-            let bank = '';
+            let account = {
+                owner : '',
+                bank : '',
+                balance : 0,
+                updatetime : '',
 
-            function register() {
-                let userInfo = prompt('이름, 은행');
-                if (userInfo.includes(',')) {
-                    let userInfoList = userInfo.split(',');
-                    owner = String(userInfoList[0].trim());
-                    bank = String(userInfoList[1].trim());
-                }
-                else {
-                    alert('올바르지 않은 형식');
-                    register();
-                }
-            }
-            
-            function inquiry() {
-                alert('잔액 : ' + balance);
-            }
+                register() {
+                    let userInfo = prompt('이름, 은행');
+                    if (userInfo.includes(',')) {
+                        let userInfoList = userInfo.split(',');
+                        this.owner = userInfoList[0].trim();
+                        this.bank = userInfoList[1].trim();
+                    }
+                    else {
+                        alert('올바르지 않은 형식');
+                        this.register();
+                    }
+                },
+                
+                inquiry() {
+                    alert('잔액 : ' + this.balance);
+                },
 
-            function deposit() {
-                let dep = parseInt(prompt('입금액 : '));
-                if (isNaN(dep)) {
-                    alert('숫자를 입력하세요.');
-                }
-                else {
-                    balance = dep;
-                    updatetime = new Date().toLocaleString();
-                    inquiry();
-                }
-            }
-            
-            function withdraw() {
-                let wd = parseInt(prompt('출금액'));
-                if (isNaN(wd)) {
-                    alert('숫자를 입력하세요.');
-                }
-                else if (wd > balance) {
-                    alert('잔액 부족');
-                }
-                else {
-                    balance -= wd;
-                    updatetime = new Date().toLocaleString();
-                    inquiry();
-                }
-            }
+                deposit() {
+                    let dep = parseInt(prompt('입금액 : '));
+                    if (isNaN(dep)) {
+                        alert('숫자를 입력하세요.');
+                    }
+                    else {
+                        this.balance = dep;
+                        this.updatetime = new Date().toLocaleString();
+                        this.inquiry();
+                    }
+                },
+                
+                withdraw() {
+                    let wd = parseInt(prompt('출금액'));
+                    if (isNaN(wd)) {
+                        alert('숫자를 입력하세요.');
+                    }
+                    else if (wd > this.balance) {
+                        alert('잔액 부족');
+                    }
+                    else {
+                        this.balance -= wd;
+                        this.updatetime = new Date().toLocaleString();
+                        this.inquiry();
+                    }
+                },
 
-            function time(){
-                let timemessage = '마지막 입출금 시간은 ' + updatetime;
-                alert(timemessage);
-            }
+                time(){
+                    let timemessage = '마지막 입출금 시간은 ' + this.updatetime;
+                    alert(timemessage);
+                },
 
-            function info() {
-                alert('이름 : ' + owner + ' | 은행 : ' + bank+ ' | 잔액 : ' + String(balance));
-            }
+                info() {
+                    alert('이름 : ' + this.owner + ' | 은행 : ' + this.bank+ ' | 잔액 : ' + String(this.balance));
+                }
+            };
+
         </script>
     </head>
-    <body onload="register()">
+    <body onload="account.register()">
         <div>
-            <button onclick="inquiry()">조회</button>
-            <button onclick="deposit()">입금</button>
-            <button onclick="withdraw()">출금</button>
-            <button onclick="time()">입출금 시간</button>
-            <button onclick="info()">사용자 정보</button>
+            <button onclick="account.inquiry()">조회</button>
+            <button onclick="account.deposit()">입금</button>
+            <button onclick="account.withdraw()">출금</button>
+            <button onclick="account.time()">입출금 시간</button>
+            <button onclick="account.info()">사용자 정보</button>
         </div>
     </body>
 </html>
