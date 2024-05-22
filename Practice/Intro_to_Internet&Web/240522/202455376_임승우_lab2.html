@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div>
+            <button onclick="cycleRegionStyles()">지역 스타일 순환</button>
+            <button onclick="cycleLocationStyles()">위치 스타일 순환</button>
+            <button onclick="cycleCampusStyles()">캠퍼스 스타일 순환</button>
+            <button onclick="reset()">초기화</button>
+        </div>
+        <hr>
+        <p>
+            부산대학교는 부산을 대표하는 거점국립대학교이다.<br>
+            캠퍼스는 <span class="Region">부산</span>과 <span class="Region">경남</span>에 있다.<br>
+            <span class="Region">부산</span>에는 <span class="Location">금정구 장전동</span>의 <span class="Campus">부산캠퍼스</span>와 <span class="Location">서구 아미동</span>의 <span class="Campus">아미캠퍼스</span>가 있다.<br>
+            <span class="Region">경남</span>에는 <span class="Location">경상남도 밀양시 삼랑진읍 청학리</span> 의 <span class="Campus">밀양캠퍼스</span>, <span class="Location">경상남도 양산시 물금읍 범어리</span> <span class="Campus">양산캠퍼스</span>가 있다.<br>
+        </p>
+        <script>
+            let cycleNumReg = 0;
+            let cycleNumCam = 0;
+            let cycleNumLoc = 0;
+
+            function cycleRegionStyles() {
+                let regions = document.getElementsByClassName("Region");
+
+                if (cycleNumReg == 0) {
+                    for (let i=0; i<regions.length; i++) {
+                        let region = regions.item(i);
+                        region.style.color = "red";
+                        region.style.fontSize = "20px";
+                    }
+                    cycleNumReg = 1;
+                }
+
+                else if (cycleNumReg == 1) {
+                    for (let i=0; i<regions.length; i++) {
+                        let region = regions.item(i);
+                        region.style.color = "orange";
+                        region.style.fontSize = "18px";
+                    }
+                    cycleNumReg = 2;
+                }
+
+                else {
+                    for (let i=0; i<regions.length; i++) {
+                        let region = regions.item(i);
+                        region.style.color = "purple";
+                        region.style.fontSize = "16px";
+                    }
+                    cycleNumReg = 0;
+                }
+            }
+
+            function cycleLocationStyles() {
+                let locations = document.getElementsByClassName("Location");
+
+                if (cycleNumLoc == 0) {
+                    for (let i=0; i<locations.length; i++) {
+                        let location = locations.item(i);
+                        location.style.color = "blue";
+                        location.style.fontSize = "20px";
+                    }
+                    cycleNumLoc = 1;
+                }
+
+                else if (cycleNumLoc == 1) {
+                    for (let i=0; i<locations.length; i++) {
+                        let location = locations.item(i);
+                        location.style.color = "cyan";
+                        location.style.fontSize = "18px";
+                    }
+                    cycleNumLoc = 2;
+                }
+
+                else {
+                    for (let i=0; i<locations.length; i++) {
+                        let location = locations.item(i);
+                        location.style.color = "navy";
+                        location.style.fontSize = "16px";
+                    }
+                    cycleNumLoc = 0;
+                }
+            }
+
+            function cycleCampusStyles() {
+                let campuses = document.getElementsByClassName("Campus");
+
+                if (cycleNumCam == 0) {
+                    for (let i=0; i<campuses.length; i++) {
+                        let campus = campuses.item(i);
+                        campus.style.color = "green";
+                        campus.style.fontSize = "20px";
+                    }
+                    cycleNumCam = 1;
+                }
+
+                else if (cycleNumCam == 1) {
+                    for (let i=0; i<campuses.length; i++) {
+                        let campus = campuses.item(i);
+                        campus.style.color = "lime";
+                        campus.style.fontSize = "18px";
+                    }
+                    cycleNumCam = 2;
+                }
+
+                else {
+                    for (let i=0; i<campuses.length; i++) {
+                        let campus = campuses.item(i);
+                        campus.style.color = "olive";
+                        campus.style.fontSize = "16px";
+                    }
+                    cycleNumCam = 0;
+                }
+            }
+
+            function reset() {
+                let locations = document.getElementsByClassName("Location");
+                let regions = document.getElementsByClassName("Region");
+                let campuses = document.getElementsByClassName("Campus");
+
+                for (let i=0; i<locations.length; i++) {
+                    locations[i].style.color="";
+                    locations[i].style.fontSize="";
+                }
+
+                for (let i=0; i<campuses.length; i++) {
+                    campuses[i].style.color="";
+                    campuses[i].style.fontSize="";
+                }
+
+                for (let i=0; i<regions.length; i++) {
+                    regions[i].style.color="";
+                    regions[i].style.fontSize="";
+                }
+            }
+                
+        </script>
+    </body>
+</html>

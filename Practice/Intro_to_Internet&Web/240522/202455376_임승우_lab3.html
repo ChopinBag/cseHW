@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <button onclick="toggleBusanCampus()">부산캠퍼스</button>
+        <button onclick="toggleMilyangCampus()">밀양캠퍼스</button>
+        <button onclick="toggleYangsanCampus()">양산캠퍼스</button>
+        <hr>
+        <div id="parent"></div>
+
+        <script>
+            let isToggle = false;
+
+            function toggleBusanCampus() {
+                let par = document.getElementById("parent");
+                while (par.firstChild) {
+                    par.removeChild(par.firstChild);
+                }
+                if (!isToggle) {
+                    let busanDesc = document.createElement("div");
+                    busanDesc.setAttribute("id", "busan");
+                    busanDesc.style.backgroundColor = "lightgreen";
+                    busanDesc.style.border = "1px solid black";
+                    busanDesc.innerHTML = "인문대학<br>사회과학대학<br>자연과학대학<br>경제통상대학<br>공과대학<br>경영대학<br>약학대학<br>생활과학대학<br>사범대학<br>예술대학";
+                    par.appendChild(busanDesc);
+                    isToggle = true;
+                } else {
+                    isToggle = false;
+                }
+            }
+
+            function toggleYangsanCampus() {
+                let par = document.getElementById("parent");
+                while (par.firstChild) {
+                    par.removeChild(par.firstChild);
+                }
+                if (!isToggle) {
+                    let yangsanDesc = document.createElement("div");
+                    yangsanDesc.setAttribute("id", "yangsan");
+                    yangsanDesc.style.backgroundColor = "lightpink";
+                    yangsanDesc.style.border = "1px solid black";
+                    yangsanDesc.innerHTML = "의과대학<br>간호대학<br>정보의생명공학대학";
+                    par.appendChild(yangsanDesc);
+                    isToggle = true;
+                } else {
+                    isToggle = false;
+                }
+            }
+
+            function toggleMilyangCampus() {
+                let par = document.getElementById("parent");
+                while (par.firstChild) {
+                    par.removeChild(par.firstChild);
+                }
+                if (!isToggle) {
+                    let milyangDesc = document.createElement("div");
+                    milyangDesc.setAttribute("id", "milyang");
+                    milyangDesc.style.backgroundColor = "lightblue";
+                    milyangDesc.style.border = "1px solid black";
+                    milyangDesc.innerHTML = "나노과학기술대학<br>생명자원과학대학	";
+                    par.appendChild(milyangDesc);
+                    isToggle = true;
+                } else {
+                    isToggle = false;
+                }
+            }
+        </script>
+    </body>
+</html>

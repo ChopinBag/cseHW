@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div>
+            <button onclick="changeColor()">색</button>
+            <button onclick="changeFontSize()">글자크기</button>
+            <button onclick="highlight()">강조</button>
+            <input type="text" name="search" placeholder="단어 입력">
+            <button onclick="highlightWord()">강조2</button>
+            <button onclick="reset()">초기화</button>
+        </div>
+        <hr>
+        <p>
+            Internet-based web services play a very important role in implementing <span>platform-independent services.</span><br>
+            In this course, we will understand <span>the basic structure of the Internet and the web</span>, and learn <span>client-side programming.</span><br>
+            In particular, it focuses on understanding <span>the basic syntax of HTML / CSS / JavaScript.</span><br>
+            In the latter part of this course, we will build <span>a simple web server</span> using Node.js and use the web API.<br>
+            This confirms <span>the various possibilities of using web services.</span><br>
+            This helps us understand <span>the applicability and extendability of the web service.</span>
+        </p>
+        <script>
+            function changeColor() {
+                let spans = document.getElementsByTagName("span");
+                for (let i=0; i<spans.length; i++) {
+                    spans[i].style.color = "blue";
+                }
+            }
+
+            function changeFontSize() {
+                let spans = document.getElementsByTagName("span");
+                for (let i=0; i<spans.length; i++) {
+                    spans[i].style.color = "red";
+                    spans[i].style.fontSize = "20px";
+                }
+            }
+            
+            function highlight() {
+                let spans = document.getElementsByTagName("span");
+                for (let i=0; i<spans.length; i++) {
+                    spans[i].style.color = "white";
+                    spans[i].style.fontSize = "20px";
+                    spans[i].style.backgroundColor = "black";
+                }
+            }
+
+            function highlightWord() {
+                let inp = document.getElementsByTagName("input");
+                let inputValue = inp[0].value;
+                let spans = document.getElementsByTagName("span");
+                for (let i=0; i<spans.length; i++){
+                    if (spans[i].textContent.includes(inputValue)){
+                        spans[i].style.backgroundColor = "yellow";
+                    }
+                }
+            }
+            
+            function reset() {
+                let spans = document.getElementsByTagName("span");
+                for (let i=0; i<spans.length; i++) {
+                    spans[i].style.color = "";
+                    spans[i].style.fontSize = "";
+                    spans[i].style.backgroundColor = "";
+                }
+            }
+        </script>
+    </body>
+</html>
