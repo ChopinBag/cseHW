@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+    </head>
+    <body onload="uploadListners()">
+        <h1>ch09. Events 실습</h1>
+        <br>
+        <h2>실습 1</h2>
+        <hr>
+        <div>
+            <img src="pnu.png" id="pnuImg">
+            <p id="desc"></p>
+        </div>
+        <br>
+        <h2>실습2</h2>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>Sign up</legend>
+                <label>ID : </label><input type="text" onblur="checkFill(this), idLengthLimit()"id="id"><br>
+                <div id="idAlert"></div>
+                <label>PW : </label><input type="password" id="pass"><br>
+                <div id="passAlert"></div>
+                <label>PW 확인 : </label><input type="password" id="passCheck"><br>
+                <div id="passCheckAlert"></div>
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </fieldset>
+        </form>
+        <br>
+        <div id="elementContent"></div>
+        
+
+        <script>
+            let pnuImg = document.getElementById("pnuImg");
+            let desc = document.getElementById("desc");
+            let idElement = document.getElementById("id");
+            let idLength = idElement.value.length;
+            let idValue = idElement.value;
+            let passElement = document.getElementById("pass");
+            let passLength = passElement.value.length;
+            let passValue = passElement.value;
+            let passCheckElement = document.getElementById("passCheck")
+            let passCheckValue = passCheckElement.value.length;
+
+            function bgColorChange(color) {
+                pnuImg.style.backgroundColor = `${color}`;
+            } 
+            
+            function writeDesc(content) {
+                desc.innerText = content;
+            }
+
+            function uploadListners() {
+                pnuImg.addEventListener('mousedown', () => {
+                bgColorChange('red');
+                writeDesc('mousedown');
+                });
+                pnuImg.addEventListener('mouseup', () => {
+                    bgColorChange('lightgreen');
+                    writeDesc('mouseup');
+                });
+                pnuImg.addEventListener('mouseover', () => {
+                    bgColorChange('lightblue');
+                    writeDesc('mouseover');
+                });
+                pnuImg.addEventListener('mouseout', () => {
+                    bgColorChange('violet');
+                    writeDesc('mouseout');
+                });
+                pnuImg.addEventListener('wheel', () => {
+                    event.preventDefault();
+                    bgColorChange('white');
+                    writeDesc('wheel');
+                    pnuImg.style.borderStyle = 'ridge';
+                    pnuImg.style.borderColor = 'blue';
+                    let currentBW = parseInt(pnuImg.style.borderWidth) || 0;
+                    if (event.wheelDelta>0) {
+                        currentBW++;
+                    }
+                    else {
+                        currentBW--;
+                        if (currentBW<0) {
+                            currentBW = 0;
+                        }
+                    }
+                    pnuImg.style.borderWidth = `${currentBW}px`;
+                });
+            }
+            
+            function checkFill(obj) {
+                if (obj.value=="") {
+                    obj.focus();
+                }
+            }
+
+            function idLengthLimit (obj) {
+                let idAlert = document.getElementById("idAlert");
+                idAlert.style.color = "red";
+                if (idLength>10) {
+                    obj.focus;
+                    idAlert.innerHTML='10자리 이내로 입력해주세요. <br>';
+                }
+                else if (idLength < 3) {
+                    obj.focus;
+                    idAlert.innerHTML='3자리 이상 입력해주세요. <br>';
+                }
+                else {
+                    idAlert.innerHTML='';
+                }
+            }
+        </script>
+    </body>
+</html>
