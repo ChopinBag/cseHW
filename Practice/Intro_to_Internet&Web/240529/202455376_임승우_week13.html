@@ -4,7 +4,7 @@
         <meta charset="utf-8">
 
     </head>
-    <body onload="uploadListners()">
+    <body onload="uploadListeners()">
         <h1>ch09. Events 실습</h1>
         <br>
         <h2>실습 1</h2>
@@ -19,11 +19,11 @@
         <form>
             <fieldset>
                 <legend>Sign up</legend>
-                <label>ID : </label><input type="text" onblur="checkFill(this), idLengthLimit()"id="id"><br>
+                <label>ID : </label><input type="text" onblur="idLengthLimit(this)"id="id"><br>
                 <div id="idAlert"></div>
-                <label>PW : </label><input type="password" id="pass"><br>
+                <label>PW : </label><input type="password" id="pass" onblur="passLimit(this)"><br>
                 <div id="passAlert"></div>
-                <label>PW 확인 : </label><input type="password" id="passCheck"><br>
+                <label>PW 확인 : </label><input type="password" id="passCheck" onblur="passCheckLimit(this)"><br>
                 <div id="passCheckAlert"></div>
                 <button type="submit">submit</button>
                 <button type="reset">reset</button>
@@ -34,26 +34,20 @@
         
 
         <script>
-            let pnuImg = document.getElementById("pnuImg");
-            let desc = document.getElementById("desc");
-            let idElement = document.getElementById("id");
-            let idLength = idElement.value.length;
-            let idValue = idElement.value;
-            let passElement = document.getElementById("pass");
-            let passLength = passElement.value.length;
-            let passValue = passElement.value;
-            let passCheckElement = document.getElementById("passCheck")
-            let passCheckValue = passCheckElement.value.length;
-
             function bgColorChange(color) {
+
+                let pnuImg = document.getElementById("pnuImg");
                 pnuImg.style.backgroundColor = `${color}`;
             } 
             
             function writeDesc(content) {
+                let pnuImg = document.getElementById("pnuImg");
+                let desc = document.getElementById("desc");
                 desc.innerText = content;
             }
 
-            function uploadListners() {
+            function uploadListeners() {
+                let pnuImg = document.getElementById("pnuImg");
                 pnuImg.addEventListener('mousedown', () => {
                 bgColorChange('red');
                 writeDesc('mousedown');
@@ -97,20 +91,75 @@
             }
 
             function idLengthLimit (obj) {
+                let idElement = document.getElementById("id");
+                let idLength = idElement.value.length;
+                let idValue = idElement.value;
                 let idAlert = document.getElementById("idAlert");
                 idAlert.style.color = "red";
-                if (idLength>10) {
-                    obj.focus;
+                if (obj.value=="") {
+                    obj.focus();
+                    idAlert.innerHTML='id를 입력해주세요. <br>';
+                }
+                else if (idLength>10) {
+                    obj.focus();
                     idAlert.innerHTML='10자리 이내로 입력해주세요. <br>';
                 }
                 else if (idLength < 3) {
-                    obj.focus;
+                    obj.focus();
                     idAlert.innerHTML='3자리 이상 입력해주세요. <br>';
                 }
                 else {
                     idAlert.innerHTML='';
                 }
             }
+            function containsAlpha(str) {
+               return /[a-zA-Z]/.test(str);
+            }
+            function containsNumber(str) {
+               return /[0-9]/.test(str);
+            }
+            function passLimit (obj) {
+                let passElement = document.getElementById("pass");
+                let passLength = passElement.value.length;
+                let passAlert = document.getElementById("passAlert");
+                let passValue = passElement.value;
+                passAlert.style.color = "red";
+                if (passLength>20) {
+                    obj.focus();
+                    passAlert.innerHTML='20자리 이내로 입력해주세요. <br>';
+                }
+                else if (obj.value == '') {
+                    obj.focus();
+                    passAlert.innerHTML='비밀번호를 입력해주세요. <br>';
+                }
+                else if (!containsAlpha(passValue)) {
+                    passAlert.innerHTML='영어를 포함시키세요 <br>';
+                    obj.focus();
+                }
+                else if (!containsNumber(passValue)) {
+                    passAlert.innerHTML='숫자를 포함시키세요 <br>';
+                    obj.focus();
+                }
+                else {
+                    passAlert.innerHTML='';
+                }
+            }
+
+            function passCheckLimit(obj) {
+                let passElement = document.getElementById("pass");
+                let passCheckElement = document.getElementById("passCheck")
+                let passCheckValue = passCheckElement.value;
+                let passCheckAlert = document.getElementById("passCheckAlert");
+                let passValue = passElement.value;
+                passCheckAlert.style.color = "red";
+
+                if (passCheckValue != passValue) {
+                    passCheckAlert.innerHTML='비밀번호가 일치하지 않습니다. <br>';
+                    obj.focus();
+                    
+                }
+            }
+
         </script>
     </body>
 </html>
