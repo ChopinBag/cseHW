@@ -16,25 +16,49 @@
         <br>
         <h2>실습2</h2>
         <hr>
-        <form>
+        <form id="userInput" onsubmit="return output()">
             <fieldset>
                 <legend>Sign up</legend>
-                <label>ID : </label><input type="text" onblur="idLengthLimit(this)"id="id"><br>
+                <label>ID : </label><input type="text" onblur="idLimit(this)"id="id"><br>
                 <div id="idAlert"></div>
                 <label>PW : </label><input type="password" id="pass" onblur="passLimit(this)"><br>
                 <div id="passAlert"></div>
                 <label>PW 확인 : </label><input type="password" id="passCheck" onblur="passCheckLimit(this)"><br>
                 <div id="passCheckAlert"></div>
+<<<<<<< HEAD
                 <button type="submit" onfocus="submitDisabled(this)">submit</button>
                 <button type="reset">reset</button>
+=======
+                <button type="submit" id="submit" disabled>submit</button>
+                <button type="reset" onclick="resetAlert()">reset</button>
+>>>>>>> cea444f130db4360869fda794edf727d8a3849a6
             </fieldset>
+            <br>
+            <div id="output"></div>
         </form>
         <br>
         <div id="elementContent"></div>
         
 
         <script>
+<<<<<<< HEAD
             let isFormFinished = false;
+=======
+            let idOK = false
+            let passOK = false
+            let passCheckOK = false
+
+            function enableSubmit() {
+                let submit = document.getElementById("submit");
+                if (idOK && passOK && passCheckOK) {
+                    submit.disabled = false;
+                }
+                else {
+                    submit.disabled = true;
+                }
+            }
+
+>>>>>>> cea444f130db4360869fda794edf727d8a3849a6
             function bgColorChange(color) {
 
                 let pnuImg = document.getElementById("pnuImg");
@@ -84,14 +108,8 @@
                     pnuImg.style.borderWidth = `${currentBW}px`;
                 });
             }
-            
-            function checkFill(obj) {
-                if (obj.value=="") {
-                    obj.focus();
-                }
-            }
 
-            function idLengthLimit (obj) {
+            function idLimit (obj) {
                 let idElement = document.getElementById("id");
                 let idLength = idElement.value.length;
                 let idValue = idElement.value;
@@ -111,14 +129,29 @@
                 }
                 else {
                     idAlert.innerHTML='';
+                    idOK=true;
                 }
+                enableSubmit();
             }
+         
             function containsAlpha(str) {
-               return /[a-zA-Z]/.test(str);
+               if (str.search(/[a-z]/) != -1) {
+                return true;
+               }
+               else {
+                return false;
+               }
             }
+           
             function containsNumber(str) {
-               return /[0-9]/.test(str);
+                if (str.search(/[0-9]/) != -1) {
+                return true;
+               }
+               else {
+                return false;
+               }
             }
+          
             function passLimit (obj) {
                 let passElement = document.getElementById("pass");
                 let passLength = passElement.value.length;
@@ -128,6 +161,10 @@
                 if (passLength>20) {
                     obj.focus();
                     passAlert.innerHTML='20자리 이내로 입력해주세요. <br>';
+                }
+                else if (passLength<8) {
+                    obj.focus();
+                    passAlert.innerHTML='8자리 이상으로 입력해주세요. <br>';
                 }
                 else if (obj.value == '') {
                     obj.focus();
@@ -143,7 +180,9 @@
                 }
                 else {
                     passAlert.innerHTML='';
+                    passOK = true;
                 }
+                enableSubmit();
             }
 
             function passCheckLimit(obj) {
@@ -161,8 +200,14 @@
                 else {
                     isFormFinished = true
                 }
+                else {
+                    passCheckAlert.innerHTML='';
+                    passCheckOK=true;
+                }
+                enableSubmit();
             }
 
+<<<<<<< HEAD
             let isFormFinished = false;
             
             function submitDisabled(obj) {
@@ -171,5 +216,31 @@
                 }
             }
         </script>
+=======
+            function resetAlert(){
+                let userInput = document.getElementById("userInput").reset();
+                let idAlert = document.getElementById("idAlert");
+                let passAlert = document.getElementById("passAlert");
+                let passCheckAlert = document.getElementById("passCheckAlert");
+                idAlert.innerHTML = "";
+                passAlert.innerHTML ="";
+                passCheckAlert.innerHTML="";
+                idOK = false;
+                passOK = false;
+                passCheckOK = false;
+                enableSubmit();
+            }
+       
+            function output() {
+                let idElement = document.getElementById("id");
+                let idValue = idElement.value;
+                let passElement = document.getElementById("pass");
+                let passValue = passElement.value;
+                let output = document.getElementById("output");
+                output.innerHTML = `ID : ${idValue} <br> PW : ${passValue}`;
+                return false;
+            }
+       </script>
+>>>>>>> cea444f130db4360869fda794edf727d8a3849a6
     </body>
 </html>
