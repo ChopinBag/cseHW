@@ -25,7 +25,7 @@
                 <div id="passAlert"></div>
                 <label>PW 확인 : </label><input type="password" id="passCheck" onblur="passCheckLimit(this)"><br>
                 <div id="passCheckAlert"></div>
-                <button type="submit">submit</button>
+                <button type="submit" onfocus="submitDisabled(this)">submit</button>
                 <button type="reset">reset</button>
             </fieldset>
         </form>
@@ -34,6 +34,7 @@
         
 
         <script>
+            let isFormFinished = false;
             function bgColorChange(color) {
 
                 let pnuImg = document.getElementById("pnuImg");
@@ -156,10 +157,19 @@
                 if (passCheckValue != passValue) {
                     passCheckAlert.innerHTML='비밀번호가 일치하지 않습니다. <br>';
                     obj.focus();
-                    
+                }
+                else {
+                    isFormFinished = true
                 }
             }
 
+            let isFormFinished = false;
+            
+            function submitDisabled(obj) {
+                if (!isFormFinished) {
+                    event.preventDefault();
+                }
+            }
         </script>
     </body>
 </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Control</title>
+    <script>
+        let w;
+        let t;
+        
+        function openWindow() {
+            w = window.open('https://www.naver.com', 'test', 'width=200,height=200,left=1000,top=1000');
+        }
+        
+        function closeWindow() {
+            if (w) w.close();
+        }
+        
+        function delayedOpenWindow() {
+            t = setTimeout(() => openWindow(), 5000);
+        }
+        
+        function cancelTimeout() {
+            if (t) clearTimeout(t);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="openWindow()">Click to Open</button>
+    <button onclick="closeWindow()">Click to Close</button>
+    <button onclick="delayedOpenWindow()">Click to Open After 5sec</button>
+    <button onclick="cancelTimeout()">Cancel</button>
+</body>
+</html>
