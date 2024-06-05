@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>임승우_week14</title>
+    <meta charset="utf-8">
+    <script>
+        let myWin;
+        let ParTimer;
+        function openWin(source) {
+            myWin = window.open(source, "my_win", "width=700, height=600, left=600, top=600");
+            ParTimer = setTimeout(closeMyWin, 10000);
+        }
+
+        function openChild() {
+            clearTimeout(ParTimer);
+            openWin("child_template.html");
+        }
+
+        function openPNU() {
+            clearTimeout(ParTimer);
+            openWin("https://www.pusan.ac.kr/");
+        }
+
+        function openCSE() {
+            clearTimeout(ParTimer);
+            openWin("https://cse.pusan.ac.kr/cse/index.do");
+        }
+
+        function closeCurrentWin() {
+            window.close();
+        }
+
+        function closeMyWin() {
+            if(myWin) {myWin.close();}
+        }
+    </script>
+</head>
+<body>
+    <h1>Week 14 - parent</h1>
+    <hr>
+    <button onclick="openChild()">별헤는밤</button><br>
+    <button onclick="openPNU()">부산대학교</button><br>
+    <button onclick="openCSE()">정보컴퓨터공학부</button><br>
+    <button onclick="closeCurrentWin()">현재 창 닫기</button><br>
+    <button onclick="closeMyWin()">새 창 닫기</button>
+</body>
+</html>
