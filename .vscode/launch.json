@@ -5,14 +5,14 @@
             "name": "C/C++: clang build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",  // 프로그램 실행 파일 경로
-            "args": [],  // 실행 시 전달할 인자 (필요 없다면 빈 배열로 두세요)
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",  // 현재 작업 디렉토리
+            "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,  // 터미널에서 입력 받기 위해 true로 설정
-            "MIMode": "lldb",  // Mac에서는 LLDB를 사용 (Linux에서는 "gdb"로 설정 가능)
-            "preLaunchTask": "C/C++: clang 활성 파일 빌드",  // 빌드 작업 이름 (tasks.json에서 정의한 이름)
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang 활성 파일 빌드",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for lldb",
@@ -20,7 +20,32 @@
                     "ignoreFailures": true
                 }
             ],
-            "internalConsoleOptions": "neverOpen"  // 디버그 콘솔 대신 외부 콘솔 사용
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "C/C++: gcc 활성 파일 빌드 및 디버그",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: gcc 활성 파일 빌드"
+        },
+        {
+            "name": "(lldb) 시작",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "프로그램 이름 입력(예: ${workspaceFolder}/a.out)",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }
