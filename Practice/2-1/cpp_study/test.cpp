@@ -1,21 +1,30 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
 int main(){
-    int num = 0;
+    int num=0;
     cin >> num;
-    int *arr = new int[num][99];
 
-    for (int i=0; i < num; i++){
-        cin >> arr[i];
+    vector<int> v1;
+
+    for (int i=0; i<num; ++i){
+        int n=0;
+        cin >> n;
+        v1.push_back(n);
     }
 
-    int input_i = 0;
-    cin >> input_i;
+    cout << v1[0] << endl;
 
-    cout << arr[arr[input_i]] << endl;
 
-    delete arr;
+
+    sort(begin(v1), end(v1));
+
+    for (int i=0; i< num; ++i){
+        cout << v1[i] << " ";
+    }
+
     return 0;
 }
