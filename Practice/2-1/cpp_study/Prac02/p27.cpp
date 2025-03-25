@@ -19,7 +19,6 @@ int main(){
     cin >> a_op;
     cin >> b_op;
 
-
     v1.erase(begin(v1) + a_op);
 
     v1.erase(remove(begin(v1), end(v1), b_op), v1.end());
