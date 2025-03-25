@@ -7,7 +7,6 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
     <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="Cpp.Editor" type="string" />
@@ -23,7 +22,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="MovieRatings" targetName="main" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -31,17 +32,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="0325">
-      <change afterPath="$PROJECT_DIR$/.autocp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/movie.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/movie.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+    <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p27.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p27.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p28.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p28.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/movie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/movie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c35ec820fa616add8515.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6a9a24b295dd5f0b6036.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-25T16-20-57-0656.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -95,6 +100,8 @@
     "C/C++ File.temp.cpp.executor": "Run",
     "C/C++ 파일.temp.cpp.executor": "Run",
     "C/C++ 파일.test.cpp.executor": "Run",
+    "CMake Application.main.executor": "Run",
+    "CMake Application.p29.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -121,20 +128,30 @@
       <recent name="C:\Users\User\CLionProjects\cseHW\Practice\2-1\cpp_study\Prac02" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.main.cpp">
-    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cseHW" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+  <component name="RunManager" selected="CMake Application.main">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
       <option name="sourceFile" value="Practice\2-1\cpp_study\Prac02\p29\main.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p28.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cseHW" TARGET_NAME="p28.cpp" CONFIG_NAME="p28.cpp">
+    <configuration name="p28.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="p28.cpp" CONFIG_NAME="p28.cpp">
       <option name="sourceFile" value="Practice\2-1\cpp_study\Prac02\p28.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cseHW" TARGET_NAME="temp.cpp" CONFIG_NAME="temp.cpp">
+    <configuration name="temp.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="temp.cpp" CONFIG_NAME="temp.cpp">
       <option name="sourceFile" value="Practice\2-1\cpp_study\temp.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
@@ -146,6 +163,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="C/C++ File.main.cpp" />
+      <item itemvalue="C/C++ File.p28.cpp" />
+      <item itemvalue="C/C++ File.temp.cpp" />
+      <item itemvalue="CMake Application.main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="C/C++ File.main.cpp" />
@@ -172,7 +195,8 @@
       <workItem from="1742918676445" duration="239000" />
       <workItem from="1742918931891" duration="997000" />
       <workItem from="1742920068128" duration="1217000" />
-      <workItem from="1742921312502" duration="434000" />
+      <workItem from="1742921312502" duration="1870000" />
+      <workItem from="1742923211367" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="0325">
       <option name="closed" value="true" />
@@ -190,7 +214,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742917492617</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0325">
+      <option name="closed" value="true" />
+      <created>1742922029737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742922029737</updated>
+    </task>
+    <task id="LOCAL-00004" summary="0325">
+      <option name="closed" value="true" />
+      <created>1742922049180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742922049180</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <option name="closed" value="true" />
+      <created>1742922090314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742922090314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,9 +249,21 @@
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0325" />
-    <option name="LAST_COMMIT_MESSAGE" value="0325" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

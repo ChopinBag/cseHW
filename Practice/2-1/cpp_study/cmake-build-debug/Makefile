@@ -115,6 +115,67 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+Prac02/p29/main.obj: Prac02/p29/main.cpp.obj
+.PHONY : Prac02/p29/main.obj
+
+# target to build an object file
+Prac02/p29/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Prac02/p29/main.cpp.obj
+.PHONY : Prac02/p29/main.cpp.obj
+
+Prac02/p29/main.i: Prac02/p29/main.cpp.i
+.PHONY : Prac02/p29/main.i
+
+# target to preprocess a source file
+Prac02/p29/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Prac02/p29/main.cpp.i
+.PHONY : Prac02/p29/main.cpp.i
+
+Prac02/p29/main.s: Prac02/p29/main.cpp.s
+.PHONY : Prac02/p29/main.s
+
+# target to generate assembly for a file
+Prac02/p29/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Prac02/p29/main.cpp.s
+.PHONY : Prac02/p29/main.cpp.s
+
+Prac02/p29/movie.obj: Prac02/p29/movie.cpp.obj
+.PHONY : Prac02/p29/movie.obj
+
+# target to build an object file
+Prac02/p29/movie.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Prac02/p29/movie.cpp.obj
+.PHONY : Prac02/p29/movie.cpp.obj
+
+Prac02/p29/movie.i: Prac02/p29/movie.cpp.i
+.PHONY : Prac02/p29/movie.i
+
+# target to preprocess a source file
+Prac02/p29/movie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Prac02/p29/movie.cpp.i
+.PHONY : Prac02/p29/movie.cpp.i
+
+Prac02/p29/movie.s: Prac02/p29/movie.cpp.s
+.PHONY : Prac02/p29/movie.s
+
+# target to generate assembly for a file
+Prac02/p29/movie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Prac02/p29/movie.cpp.s
+.PHONY : Prac02/p29/movie.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +184,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... main
+	@echo ... Prac02/p29/main.obj
+	@echo ... Prac02/p29/main.i
+	@echo ... Prac02/p29/main.s
+	@echo ... Prac02/p29/movie.obj
+	@echo ... Prac02/p29/movie.i
+	@echo ... Prac02/p29/movie.s
 .PHONY : help
 
 

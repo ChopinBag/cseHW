@@ -1,20 +1,27 @@
 #include "movie.h"
 #include <iostream>
 
-int main() {
-    std::map<std::string, std::vector<int>> ratings;
-    std::map<std::string, Genre> genres;
+using namespace std;
 
-    std::string title, genreStr, ratingStr;
+int main() {
+    map<string, vector<int>> ratings;
+    map<string, Genre> genres;
+
+    string title, genreStr, ratingStr;
 
     //std::cout << "Enter movie data (Title, Genre, Rating). Type 'q' to quit:\n";
 
-    while (std::getline(std::cin, title) && title != "q") {
-        std::getline(std::cin, genreStr);
-        std::getline(std::cin, ratingStr);
+    while (getline(cin, title) && title != "q") {
+        getline(std::cin, genreStr);
+        getline(std::cin, ratingStr);
         
-        // Implement your code
-        
+        Genre g = toGenre(genreStr);
+        Rating r = toRating(ratingStr);
+        int score = toInt(r);
+
+        genres[title] = g;
+        ratings[title].push_back(score);
+
     }
     
     printSummary(ratings, genres);
