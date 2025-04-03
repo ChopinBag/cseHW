@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/Prac02/p29/main.cpp.obj"
-  "CMakeFiles/main.dir/Prac02/p29/main.cpp.obj.d"
-  "CMakeFiles/main.dir/Prac02/p29/movie.cpp.obj"
-  "CMakeFiles/main.dir/Prac02/p29/movie.cpp.obj.d"
-  "libmain.dll.a"
-  "main.exe"
-  "main.exe.manifest"
+  "CMakeFiles/main.dir/Prac02/p29/main.cpp.o"
+  "CMakeFiles/main.dir/Prac02/p29/main.cpp.o.d"
+  "CMakeFiles/main.dir/Prac02/p29/movie.cpp.o"
+  "CMakeFiles/main.dir/Prac02/p29/movie.cpp.o.d"
+  "main"
   "main.pdb"
 )
 
