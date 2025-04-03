@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/User/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp" "CMakeFiles/main.dir/Prac02/p29/main.cpp.obj" "gcc" "CMakeFiles/main.dir/Prac02/p29/main.cpp.obj.d"
-  "C:/Users/User/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp" "CMakeFiles/main.dir/Prac02/p29/movie.cpp.obj" "gcc" "CMakeFiles/main.dir/Prac02/p29/movie.cpp.obj.d"
+  "/Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp" "CMakeFiles/main.dir/Prac02/p29/main.cpp.o" "gcc" "CMakeFiles/main.dir/Prac02/p29/main.cpp.o.d"
+  "/Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp" "CMakeFiles/main.dir/Prac02/p29/movie.cpp.o" "gcc" "CMakeFiles/main.dir/Prac02/p29/movie.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
