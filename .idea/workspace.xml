@@ -7,7 +7,6 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
     <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="Cpp.Editor" type="string" />
@@ -34,6 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
@@ -60,12 +60,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ChopinBag/cseHW.git&quot;,
-    &quot;accountId&quot;: &quot;3c26815f-17a7-4b88-a04c-0365463bed52&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ChopinBag/cseHW.git",
+    "accountId": "1dd160af-0e93-4f6a-b2b5-0e0320ead30b"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p27.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -149,10 +149,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.main" />
       <item itemvalue="C/C++ File.main.cpp" />
       <item itemvalue="C/C++ File.p28.cpp" />
       <item itemvalue="C/C++ File.temp.cpp" />
-      <item itemvalue="CMake Application.main" />
     </list>
     <recent_temporary>
       <list>
@@ -183,6 +183,10 @@
       <workItem from="1742921312502" duration="1870000" />
       <workItem from="1742923211367" duration="858000" />
       <workItem from="1743263357623" duration="1000" />
+      <workItem from="1743688482988" duration="950000" />
+      <workItem from="1743689462602" duration="27000" />
+      <workItem from="1743689508124" duration="800000" />
+      <workItem from="1743690470299" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="0325">
       <option name="closed" value="true" />
