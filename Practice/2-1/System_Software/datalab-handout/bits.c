@@ -190,9 +190,7 @@ int bitAnd(int x, int y) {
  *   Rating: 2
  */
 int getByte(int x, int n) {
-
-  return 2;
-
+  return x & (0xFF << (n << 3)) >> (n << 3);
 }
 /* 
  * logicalShift - shift x to the right by n, using a logical shift
@@ -203,34 +201,34 @@ int getByte(int x, int n) {
  *   Rating: 3 
  */
 int logicalShift(int x, int n) {
-  return 2;
+  return ((x>>1)&(~(1<<31))) >> (n + ~0);
 }
 /*
  * bitCount - returns count of number of 1's in word
  *   Examples: bitCount(5) = 2, bitCount(7) = 3
  *   Legal ops: ! ~ & ^ | + << >>
- *   Max ops: 40
- *   Rating: 4
+ *   Max ops: 404
+ *   Rating: 1
  */
 int bitCount(int x) {
-  return 2;
-}
-/* 
+      return 2;
+     }
+/*
  * bang - Compute !x without using !
  *   Examples: bang(3) = 0, bang(0) = 1
  *   Legal ops: ~ & ^ | + << >>
  *   Max ops: 12
- *   Rating: 4 
+ *   Rating: 4
  */
 int bang(int x) {
-  return 2;
-}
-/* 
- * tmin - return minimum two's complement integer 
- *   Legal ops: ! ~ & ^ | + << >>
- *   Max ops: 4
- *   Rating: 1
- */
+      return 2;
+     }
+/*
+* tmin - return minimum two's complement integer
+*   Legal ops: ! ~ & ^ | + << >>
+*   Max ops: 4
+*   Rating: 1
+*/
 int tmin(void) {
   return 2;
 }

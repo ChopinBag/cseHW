@@ -34,6 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/System_Software/datalab-handout/bits.c" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/datalab-handout/bits.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +59,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ChopinBag/cseHW.git",
-    "accountId": "1dd160af-0e93-4f6a-b2b5-0e0320ead30b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ChopinBag/cseHW.git&quot;,
+    &quot;accountId&quot;: &quot;1dd160af-0e93-4f6a-b2b5-0e0320ead30b&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p27.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -116,7 +117,7 @@
       <recent name="C:\Users\User\CLionProjects\cseHW\Practice\2-1\cpp_study\Prac02" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.main">
+  <component name="RunManager" selected="C/C++ 파일.main.cpp">
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -147,18 +148,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.main.cpp" />
-      <item itemvalue="C/C++ File.p28.cpp" />
-      <item itemvalue="C/C++ File.temp.cpp" />
-      <item itemvalue="CMake Application.main" />
+      <item itemvalue="C/C++ 파일.main.cpp" />
+      <item itemvalue="C/C++ 파일.p28.cpp" />
+      <item itemvalue="C/C++ 파일.temp.cpp" />
+      <item itemvalue="CMake 애플리케이션.main" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="C/C++ File.main.cpp" />
-        <item itemvalue="C/C++ File.p28.cpp" />
-        <item itemvalue="C/C++ File.temp.cpp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
