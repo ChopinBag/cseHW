@@ -7,3 +7,5 @@ add_executable(main
         Prac02/p29/main.cpp
         Prac02/p29/movie.cpp
 )
+add_executable(datalab ../System_Software/test_for_datalab.c)
+add_executable(tests ../../test_C.c)

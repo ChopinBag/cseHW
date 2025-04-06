@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study
+CMAKE_SOURCE_DIR = /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,32 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named datalab
+
+# Build rule for target.
+datalab: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 datalab
+.PHONY : datalab
+
+# fast build rule for target.
+datalab/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/build
+.PHONY : datalab/fast
+
+#=============================================================================
+# Target rules for targets named tests
+
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+.PHONY : tests/fast
 
 Prac02/p29/main.o: Prac02/p29/main.cpp.o
 .PHONY : Prac02/p29/main.o
@@ -177,6 +203,54 @@ Prac02/p29/movie.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Prac02/p29/movie.cpp.s
 .PHONY : Prac02/p29/movie.cpp.s
 
+Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.o: Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.o
+
+# target to build an object file
+Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o
+
+Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.i: Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.i
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.i
+
+# target to preprocess a source file
+Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.i
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.i
+
+Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.s: Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.s
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.s
+
+# target to generate assembly for a file
+Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.s
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.s
+
+Users/imseung-u/CLionProjects/cseHW/Practice/test_C.o: Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.o
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/test_C.o
+
+# target to build an object file
+Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.o
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.o
+
+Users/imseung-u/CLionProjects/cseHW/Practice/test_C.i: Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.i
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/test_C.i
+
+# target to preprocess a source file
+Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.i
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.i
+
+Users/imseung-u/CLionProjects/cseHW/Practice/test_C.s: Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.s
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/test_C.s
+
+# target to generate assembly for a file
+Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.s
+.PHONY : Users/imseung-u/CLionProjects/cseHW/Practice/test_C.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -185,13 +259,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... datalab"
 	@echo "... main"
+	@echo "... tests"
 	@echo "... Prac02/p29/main.o"
 	@echo "... Prac02/p29/main.i"
 	@echo "... Prac02/p29/main.s"
 	@echo "... Prac02/p29/movie.o"
 	@echo "... Prac02/p29/movie.i"
 	@echo "... Prac02/p29/movie.s"
+	@echo "... Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.o"
+	@echo "... Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.i"
+	@echo "... Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.s"
+	@echo "... Users/imseung-u/CLionProjects/cseHW/Practice/test_C.o"
+	@echo "... Users/imseung-u/CLionProjects/cseHW/Practice/test_C.i"
+	@echo "... Users/imseung-u/CLionProjects/cseHW/Practice/test_C.s"
 .PHONY : help
 
 

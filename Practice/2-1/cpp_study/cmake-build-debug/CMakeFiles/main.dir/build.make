@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study
+CMAKE_SOURCE_DIR = /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/main.dir/progress.make
 include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/Prac02/p29/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Prac02/p29/main.cpp.o: /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp
+CMakeFiles/main.dir/Prac02/p29/main.cpp.o: /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp
 CMakeFiles/main.dir/Prac02/p29/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/Prac02/p29/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Prac02/p29/main.cpp.o -MF CMakeFiles/main.dir/Prac02/p29/main.cpp.o.d -o CMakeFiles/main.dir/Prac02/p29/main.cpp.o -c /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/Prac02/p29/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Prac02/p29/main.cpp.o -MF CMakeFiles/main.dir/Prac02/p29/main.cpp.o.d -o CMakeFiles/main.dir/Prac02/p29/main.cpp.o -c /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp
 
 CMakeFiles/main.dir/Prac02/p29/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Prac02/p29/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp > CMakeFiles/main.dir/Prac02/p29/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp > CMakeFiles/main.dir/Prac02/p29/main.cpp.i
 
 CMakeFiles/main.dir/Prac02/p29/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Prac02/p29/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp -o CMakeFiles/main.dir/Prac02/p29/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/main.cpp -o CMakeFiles/main.dir/Prac02/p29/main.cpp.s
 
 CMakeFiles/main.dir/Prac02/p29/movie.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Prac02/p29/movie.cpp.o: /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp
+CMakeFiles/main.dir/Prac02/p29/movie.cpp.o: /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp
 CMakeFiles/main.dir/Prac02/p29/movie.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Prac02/p29/movie.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Prac02/p29/movie.cpp.o -MF CMakeFiles/main.dir/Prac02/p29/movie.cpp.o.d -o CMakeFiles/main.dir/Prac02/p29/movie.cpp.o -c /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Prac02/p29/movie.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Prac02/p29/movie.cpp.o -MF CMakeFiles/main.dir/Prac02/p29/movie.cpp.o.d -o CMakeFiles/main.dir/Prac02/p29/movie.cpp.o -c /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp
 
 CMakeFiles/main.dir/Prac02/p29/movie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Prac02/p29/movie.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp > CMakeFiles/main.dir/Prac02/p29/movie.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp > CMakeFiles/main.dir/Prac02/p29/movie.cpp.i
 
 CMakeFiles/main.dir/Prac02/p29/movie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Prac02/p29/movie.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp -o CMakeFiles/main.dir/Prac02/p29/movie.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/Prac02/p29/movie.cpp -o CMakeFiles/main.dir/Prac02/p29/movie.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -109,7 +109,7 @@ main: CMakeFiles/main.dir/Prac02/p29/main.cpp.o
 main: CMakeFiles/main.dir/Prac02/p29/movie.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

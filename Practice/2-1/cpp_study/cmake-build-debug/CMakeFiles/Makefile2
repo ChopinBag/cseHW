@@ -54,16 +54,18 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study
+CMAKE_SOURCE_DIR = /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
+all: CMakeFiles/datalab.dir/all
+all: CMakeFiles/tests.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +74,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/datalab.dir/clean
+clean: CMakeFiles/tests.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,14 +85,14 @@ clean: CMakeFiles/main.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/Documents/GitHub/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -99,6 +103,58 @@ main: CMakeFiles/main.dir/rule
 CMakeFiles/main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
 .PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/datalab.dir
+
+# All Build rule for target.
+CMakeFiles/datalab.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target datalab"
+.PHONY : CMakeFiles/datalab.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/datalab.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/datalab.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/datalab.dir/rule
+
+# Convenience name for target.
+datalab: CMakeFiles/datalab.dir/rule
+.PHONY : datalab
+
+# clean rule for target.
+CMakeFiles/datalab.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/clean
+.PHONY : CMakeFiles/datalab.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tests.dir
+
+# All Build rule for target.
+CMakeFiles/tests.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target tests"
+.PHONY : CMakeFiles/tests.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tests.dir/rule
+
+# Convenience name for target.
+tests: CMakeFiles/tests.dir/rule
+.PHONY : tests
+
+# clean rule for target.
+CMakeFiles/tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/clean
+.PHONY : CMakeFiles/tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
