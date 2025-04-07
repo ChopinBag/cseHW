@@ -9,3 +9,8 @@ add_executable(main
 )
 add_executable(datalab ../System_Software/test_for_datalab.c)
 add_executable(tests ../../test_C.c)
+add_executable(pr041
+        Pr041/main.cpp
+        Pr041/input.cpp
+        Pr041/bmi.cpp
+)

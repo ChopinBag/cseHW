@@ -155,6 +155,91 @@ tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+#=============================================================================
+# Target rules for targets named pr041
+
+# Build rule for target.
+pr041: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pr041
+.PHONY : pr041
+
+# fast build rule for target.
+pr041/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/build
+.PHONY : pr041/fast
+
+Pr041/bmi.o: Pr041/bmi.cpp.o
+.PHONY : Pr041/bmi.o
+
+# target to build an object file
+Pr041/bmi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/bmi.cpp.o
+.PHONY : Pr041/bmi.cpp.o
+
+Pr041/bmi.i: Pr041/bmi.cpp.i
+.PHONY : Pr041/bmi.i
+
+# target to preprocess a source file
+Pr041/bmi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/bmi.cpp.i
+.PHONY : Pr041/bmi.cpp.i
+
+Pr041/bmi.s: Pr041/bmi.cpp.s
+.PHONY : Pr041/bmi.s
+
+# target to generate assembly for a file
+Pr041/bmi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/bmi.cpp.s
+.PHONY : Pr041/bmi.cpp.s
+
+Pr041/input.o: Pr041/input.cpp.o
+.PHONY : Pr041/input.o
+
+# target to build an object file
+Pr041/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/input.cpp.o
+.PHONY : Pr041/input.cpp.o
+
+Pr041/input.i: Pr041/input.cpp.i
+.PHONY : Pr041/input.i
+
+# target to preprocess a source file
+Pr041/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/input.cpp.i
+.PHONY : Pr041/input.cpp.i
+
+Pr041/input.s: Pr041/input.cpp.s
+.PHONY : Pr041/input.s
+
+# target to generate assembly for a file
+Pr041/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/input.cpp.s
+.PHONY : Pr041/input.cpp.s
+
+Pr041/main.o: Pr041/main.cpp.o
+.PHONY : Pr041/main.o
+
+# target to build an object file
+Pr041/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/main.cpp.o
+.PHONY : Pr041/main.cpp.o
+
+Pr041/main.i: Pr041/main.cpp.i
+.PHONY : Pr041/main.i
+
+# target to preprocess a source file
+Pr041/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/main.cpp.i
+.PHONY : Pr041/main.cpp.i
+
+Pr041/main.s: Pr041/main.cpp.s
+.PHONY : Pr041/main.s
+
+# target to generate assembly for a file
+Pr041/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/main.cpp.s
+.PHONY : Pr041/main.cpp.s
+
 Prac02/p29/main.o: Prac02/p29/main.cpp.o
 .PHONY : Prac02/p29/main.o
 
@@ -261,7 +346,17 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... datalab"
 	@echo "... main"
+	@echo "... pr041"
 	@echo "... tests"
+	@echo "... Pr041/bmi.o"
+	@echo "... Pr041/bmi.i"
+	@echo "... Pr041/bmi.s"
+	@echo "... Pr041/input.o"
+	@echo "... Pr041/input.i"
+	@echo "... Pr041/input.s"
+	@echo "... Pr041/main.o"
+	@echo "... Pr041/main.i"
+	@echo "... Pr041/main.s"
 	@echo "... Prac02/p29/main.o"
 	@echo "... Prac02/p29/main.i"
 	@echo "... Prac02/p29/main.s"

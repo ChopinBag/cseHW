@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/c
 all: CMakeFiles/main.dir/all
 all: CMakeFiles/datalab.dir/all
 all: CMakeFiles/tests.dir/all
+all: CMakeFiles/pr041.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ preinstall:
 clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/datalab.dir/clean
 clean: CMakeFiles/tests.dir/clean
+clean: CMakeFiles/pr041.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/datalab.dir/clean:
 CMakeFiles/tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +157,32 @@ tests: CMakeFiles/tests.dir/rule
 CMakeFiles/tests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/clean
 .PHONY : CMakeFiles/tests.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pr041.dir
+
+# All Build rule for target.
+CMakeFiles/pr041.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9 "Built target pr041"
+.PHONY : CMakeFiles/pr041.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pr041.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pr041.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pr041.dir/rule
+
+# Convenience name for target.
+pr041: CMakeFiles/pr041.dir/rule
+.PHONY : pr041
+
+# clean rule for target.
+CMakeFiles/pr041.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/clean
+.PHONY : CMakeFiles/pr041.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

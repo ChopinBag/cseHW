@@ -153,7 +153,6 @@ int isLessOrEqual(int x, int y) {
     int mask = ((0x80 << 8) | 0x00) << 16;
     return !(x ^ mask) | !((y + (~x + 1)) >> 31);;
 }
-
 /*
  * ilog2 - return floor(log base 2 of x), where x > 0
  *   Example: ilog2(16) = 4
