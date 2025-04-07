@@ -229,7 +229,7 @@ int bitCount(int x) {
   x = (x & m2) + ((x>>2) & m2);
   x = (x & m4) + ((x>>4) & m4);
   x = (x & m8) + ((x>>8) & m8);
-  x = (x & m16) +( (x>>16) & m16);
+  x = (x & m16) +((x>>16) & m16);
 
   return x;
 }
@@ -241,7 +241,7 @@ int bitCount(int x) {
  *   Rating: 4
  */
 int bang(int x) {
-      return 2;
+      return (x|(~x+1) >> 31)^1;
      }
 /*
 * tmin - return minimum two's complement integer
@@ -250,11 +250,10 @@ int bang(int x) {
 *   Rating: 1
 */
 int tmin(void) {
-  return 2;
+  return 0x00|(0x01<<31);
 }
 /* 
- * fitsBits - return 1 if x can be represented as an 
- *  n-bit, two's complement integer.
+ * fitsBits - return 1 if x can be represented as an n-bit, two's complement integer.
  *   1 <= n <= 32
  *   Examples: fitsBits(5,3) = 0, fitsBits(-4,3) = 1
  *   Legal ops: ! ~ & ^ | + << >>
@@ -262,7 +261,8 @@ int tmin(void) {
  *   Rating: 2
  */
 int fitsBits(int x, int n) {
-  return 2;
+  int shift = 32 + (~n + 1);
+  return !(x ^ ((x << shift) >> shift));
 }
 /* 
  * divpwr2 - Compute x/(2^n), for 0 <= n <= 30

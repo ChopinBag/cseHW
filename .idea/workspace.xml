@@ -35,33 +35,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/Assignmet#5/decode1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/Assignmet#5/scale3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/test_C.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/2-1/System_Software/datalab-handout/bits.c" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/datalab-handout/bits.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/cache-v2-01c85263f54bc980cae1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1c482fd9178119137c3e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3beb858a5551907aaedb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/index-2025-04-01T12-32-31-0075.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/datalab" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/datalab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +275,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743752673933</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <option name="closed" value="true" />
+      <created>1743936765041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743936765041</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <option name="closed" value="true" />
+      <created>1743936777345</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743936777345</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <option name="closed" value="true" />
+      <created>1743936859549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743936859549</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
