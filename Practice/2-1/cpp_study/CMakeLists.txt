@@ -14,3 +14,7 @@ add_executable(pr041
         Pr041/input.cpp
         Pr041/bmi.cpp
 )
+add_executable(pr038
+        Pr038/main.cpp
+        Pr038/tools.cpp
+)

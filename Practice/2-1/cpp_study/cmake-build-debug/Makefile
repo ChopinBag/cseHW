@@ -168,6 +168,67 @@ pr041/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/build
 .PHONY : pr041/fast
 
+#=============================================================================
+# Target rules for targets named pr038
+
+# Build rule for target.
+pr038: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pr038
+.PHONY : pr038
+
+# fast build rule for target.
+pr038/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/build
+.PHONY : pr038/fast
+
+Pr038/main.o: Pr038/main.cpp.o
+.PHONY : Pr038/main.o
+
+# target to build an object file
+Pr038/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/Pr038/main.cpp.o
+.PHONY : Pr038/main.cpp.o
+
+Pr038/main.i: Pr038/main.cpp.i
+.PHONY : Pr038/main.i
+
+# target to preprocess a source file
+Pr038/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/Pr038/main.cpp.i
+.PHONY : Pr038/main.cpp.i
+
+Pr038/main.s: Pr038/main.cpp.s
+.PHONY : Pr038/main.s
+
+# target to generate assembly for a file
+Pr038/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/Pr038/main.cpp.s
+.PHONY : Pr038/main.cpp.s
+
+Pr038/tools.o: Pr038/tools.cpp.o
+.PHONY : Pr038/tools.o
+
+# target to build an object file
+Pr038/tools.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/Pr038/tools.cpp.o
+.PHONY : Pr038/tools.cpp.o
+
+Pr038/tools.i: Pr038/tools.cpp.i
+.PHONY : Pr038/tools.i
+
+# target to preprocess a source file
+Pr038/tools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/Pr038/tools.cpp.i
+.PHONY : Pr038/tools.cpp.i
+
+Pr038/tools.s: Pr038/tools.cpp.s
+.PHONY : Pr038/tools.s
+
+# target to generate assembly for a file
+Pr038/tools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/Pr038/tools.cpp.s
+.PHONY : Pr038/tools.cpp.s
+
 Pr041/bmi.o: Pr041/bmi.cpp.o
 .PHONY : Pr041/bmi.o
 
@@ -346,8 +407,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... datalab"
 	@echo "... main"
+	@echo "... pr038"
 	@echo "... pr041"
 	@echo "... tests"
+	@echo "... Pr038/main.o"
+	@echo "... Pr038/main.i"
+	@echo "... Pr038/main.s"
+	@echo "... Pr038/tools.o"
+	@echo "... Pr038/tools.i"
+	@echo "... Pr038/tools.s"
 	@echo "... Pr041/bmi.o"
 	@echo "... Pr041/bmi.i"
 	@echo "... Pr041/bmi.s"

@@ -36,26 +36,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/bmi.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/bmi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/input.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/input.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-70f6bf4b1d2cd02cdd0b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/index-2025-04-06T10-14-05-0417.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +141,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pr038" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="pr038" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="pr038">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pr041" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="pr041" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="pr041">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -198,6 +186,7 @@
       <item itemvalue="C/C++ 파일.temp.cpp" />
       <item itemvalue="CMake 애플리케이션.datalab" />
       <item itemvalue="CMake 애플리케이션.main" />
+      <item itemvalue="CMake 애플리케이션.pr038" />
       <item itemvalue="CMake 애플리케이션.pr041" />
       <item itemvalue="CMake 애플리케이션.tests" />
     </list>
@@ -329,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743996198382</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <option name="closed" value="true" />
+      <created>1744015678821</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744015678822</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

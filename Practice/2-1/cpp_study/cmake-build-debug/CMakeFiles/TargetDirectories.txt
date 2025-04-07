@@ -2,5 +2,6 @@
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir
+/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -11,7 +11,7 @@
 // int negate(int x);
 // int isPositive(int x);
 // int isLessOrEqual(int x, int y);
-int ilog2(int x);
+// int ilog2(int x);
 unsigned float_neg(unsigned uf);
 unsigned float_i2f(int x);
 unsigned float_twice(unsigned uf);
