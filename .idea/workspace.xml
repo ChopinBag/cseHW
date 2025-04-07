@@ -27,6 +27,7 @@
       <config projectName="MovieRatings" targetName="main" />
       <config projectName="MovieRatings" targetName="pr041" />
       <config projectName="MovieRatings" targetName="tests" />
+      <config projectName="MovieRatings" targetName="pr038" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -37,8 +38,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +97,7 @@
     "CMake Application.main.executor": "Run",
     "CMake Application.p29.executor": "Run",
     "CMake 애플리케이션.datalab.executor": "Run",
+    "CMake 애플리케이션.pr038.executor": "Run",
     "CMake 애플리케이션.pr041.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -125,7 +126,7 @@
       <recent name="C:\Users\User\CLionProjects\cseHW\Practice\2-1\cpp_study\Prac02" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 애플리케이션.pr041">
+  <component name="RunManager" selected="CMake 애플리케이션.pr038">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -326,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744015678822</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <option name="closed" value="true" />
+      <created>1744022123765</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744022123765</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
