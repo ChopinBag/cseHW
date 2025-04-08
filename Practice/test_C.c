@@ -3,7 +3,7 @@
 void decode1(long *xp, long *yp, long *zp);
 short scale3 (short x, short y, short z);
 int main() {
-
+    printf("Hello\n");
 }
 // rdi = x
 // rsi = y

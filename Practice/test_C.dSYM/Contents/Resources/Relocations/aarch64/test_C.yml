@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/imseung-u/Github/cseHW/Practice/test_C'
+relocations:     []
+...
