@@ -36,7 +36,7 @@ int bitAnd(int x, int y) {
  *   Rating: 2
  */
 int getByte(int x, int n) {
-  return x & (0xFF << (n << 3)) >> (n << 3);
+    return (x >> (n << 3)) & 0xFF;
 }
 /*
  * logicalShift - shift x to the right by n, using a logical shift
@@ -47,7 +47,8 @@ int getByte(int x, int n) {
  *   Rating: 3
  */
 int logicalShift(int x, int n) {
-  return ((x>>1)&(~(1<<31))) >> (n + ~0);
+    int mask = ~(((1 << 31) >> n) << 1);
+    return (x >> n) & mask;
 }
 /*
  * bitCount - returns count of number of 1's in word
@@ -150,8 +151,13 @@ int isPositive(int x) {
  *   Rating: 3
  */
 int isLessOrEqual(int x, int y) {
-    int mask = ((0x80 << 8) | 0x00) << 16;
-    return !(x ^ mask) | !((y + (~x + 1)) >> 31);;
+    int negX = ~x + 1;
+    int diff = y + negX;
+    int xSign = x >> 31;
+    int ySign = y >> 31;
+    int diffSign = diff >> 31;
+    int signOverflow = xSign ^ ySign;
+    return (signOverflow & xSign) | (!signOverflow & !diffSign);
 }
 /*
  * ilog2 - return floor(log base 2 of x), where x > 0
@@ -197,7 +203,12 @@ int ilog2(int x) {
  *   Rating: 2
  */
 unsigned float_neg(unsigned uf) {
- return 2;
+  unsigned exp = (uf >> 23) & 0xFF;
+  unsigned frac = uf & 0x7FFFFF;
+ if (exp == 0xFF && frac != 0) {
+   return uf; // NaN
+ }
+    return uf ^ 0x80000000;
 }
 /*
  * float_i2f - Return bit-level equivalent of expression (float) x
@@ -209,7 +220,31 @@ unsigned float_neg(unsigned uf) {
  *   Rating: 4
  */
 unsigned float_i2f(int x) {
-  return 2;
+    if (x==0) return 0;
+    unsigned sign = 0;
+    if (x < 0) {
+        sign = 0x80000000;
+        x = -x;
+    }
+    int shift = 0;
+    int temp = x;
+    while ((temp >> 1) != 0) {
+        shift++;
+        temp >>= 1;
+    }
+    int exp = shift + 127;
+    int frac_shift = shift > 23 ? shift - 23 : 0;
+    int frac = (x << (31 - shift)) >> 8;
+    if (frac_shift > 0) {
+        int extra = x & ((1 << frac_shift) - 1);
+        if ((extra > (1 << (frac_shift - 1))) || ((extra == (1 << (frac_shift - 1))) && (frac & 1)))
+            frac++;
+        if (frac >> 23) {
+            frac = 0;
+            exp++;
+        }
+    }
+    return sign | (exp << 23) | (frac & 0x7FFFFF);
 }
 /*
  * float_twice - Return bit-level equivalent of expression 2*f for
@@ -223,5 +258,22 @@ unsigned float_i2f(int x) {
  *   Rating: 4
  */
 unsigned float_twice(unsigned uf) {
-  return 2;
+    unsigned sign = uf & 0x80000000;
+    unsigned exp = (uf >> 23) & 0xFF;
+    unsigned frac = uf & 0x7FFFFF;
+
+    if (exp == 0xFF) return uf; // NaN or Infinity
+
+    if (exp == 0) {
+        frac <<= 1;
+        if (frac & 0x800000) {
+            exp = 1;
+            frac &= 0x7FFFFF;
+        }
+    } else {
+        exp += 1;
+        if (exp == 0xFF) frac = 0; // overflow to infinity
+    }
+
+    return sign | (exp << 23) | frac;
 }
