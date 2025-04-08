@@ -1,6 +1,6 @@
 import requests
 
-url = "http://host8.dreamhack.games:8825/"
+url = "http://host8.dreamhack.games:11560/"
 
 pwLen=44
 pw=""
