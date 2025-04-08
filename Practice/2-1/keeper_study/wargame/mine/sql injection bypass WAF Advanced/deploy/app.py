@@ -36,6 +36,7 @@ def index():
             return 'your request has been blocked by WAF.'
         cur = mysql.connection.cursor()
         cur.execute(f"SELECT * FROM user WHERE uid='{uid}';")
+        # ' || uid='ad%';
         result = cur.fetchone()
         if result:
             return template.format(uid=uid, result=result[1])
