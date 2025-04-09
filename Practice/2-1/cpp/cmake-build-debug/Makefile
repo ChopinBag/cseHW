@@ -181,6 +181,19 @@ pr038/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/build
 .PHONY : pr038/fast
 
+#=============================================================================
+# Target rules for targets named pr042
+
+# Build rule for target.
+pr042: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pr042
+.PHONY : pr042
+
+# fast build rule for target.
+pr042/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/build
+.PHONY : pr042/fast
+
 Pr038/main.o: Pr038/main.cpp.o
 .PHONY : Pr038/main.o
 
@@ -301,6 +314,102 @@ Pr041/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/Pr041/main.cpp.s
 .PHONY : Pr041/main.cpp.s
 
+Pr042/command_handler.o: Pr042/command_handler.cpp.o
+.PHONY : Pr042/command_handler.o
+
+# target to build an object file
+Pr042/command_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/command_handler.cpp.o
+.PHONY : Pr042/command_handler.cpp.o
+
+Pr042/command_handler.i: Pr042/command_handler.cpp.i
+.PHONY : Pr042/command_handler.i
+
+# target to preprocess a source file
+Pr042/command_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/command_handler.cpp.i
+.PHONY : Pr042/command_handler.cpp.i
+
+Pr042/command_handler.s: Pr042/command_handler.cpp.s
+.PHONY : Pr042/command_handler.s
+
+# target to generate assembly for a file
+Pr042/command_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/command_handler.cpp.s
+.PHONY : Pr042/command_handler.cpp.s
+
+Pr042/main.o: Pr042/main.cpp.o
+.PHONY : Pr042/main.o
+
+# target to build an object file
+Pr042/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/main.cpp.o
+.PHONY : Pr042/main.cpp.o
+
+Pr042/main.i: Pr042/main.cpp.i
+.PHONY : Pr042/main.i
+
+# target to preprocess a source file
+Pr042/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/main.cpp.i
+.PHONY : Pr042/main.cpp.i
+
+Pr042/main.s: Pr042/main.cpp.s
+.PHONY : Pr042/main.s
+
+# target to generate assembly for a file
+Pr042/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/main.cpp.s
+.PHONY : Pr042/main.cpp.s
+
+Pr042/word_input.o: Pr042/word_input.cpp.o
+.PHONY : Pr042/word_input.o
+
+# target to build an object file
+Pr042/word_input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/word_input.cpp.o
+.PHONY : Pr042/word_input.cpp.o
+
+Pr042/word_input.i: Pr042/word_input.cpp.i
+.PHONY : Pr042/word_input.i
+
+# target to preprocess a source file
+Pr042/word_input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/word_input.cpp.i
+.PHONY : Pr042/word_input.cpp.i
+
+Pr042/word_input.s: Pr042/word_input.cpp.s
+.PHONY : Pr042/word_input.s
+
+# target to generate assembly for a file
+Pr042/word_input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/word_input.cpp.s
+.PHONY : Pr042/word_input.cpp.s
+
+Pr042/word_manager.o: Pr042/word_manager.cpp.o
+.PHONY : Pr042/word_manager.o
+
+# target to build an object file
+Pr042/word_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/word_manager.cpp.o
+.PHONY : Pr042/word_manager.cpp.o
+
+Pr042/word_manager.i: Pr042/word_manager.cpp.i
+.PHONY : Pr042/word_manager.i
+
+# target to preprocess a source file
+Pr042/word_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/word_manager.cpp.i
+.PHONY : Pr042/word_manager.cpp.i
+
+Pr042/word_manager.s: Pr042/word_manager.cpp.s
+.PHONY : Pr042/word_manager.s
+
+# target to generate assembly for a file
+Pr042/word_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/Pr042/word_manager.cpp.s
+.PHONY : Pr042/word_manager.cpp.s
+
 Prac02/p29/main.o: Prac02/p29/main.cpp.o
 .PHONY : Prac02/p29/main.o
 
@@ -409,6 +518,7 @@ help:
 	@echo "... main"
 	@echo "... pr038"
 	@echo "... pr041"
+	@echo "... pr042"
 	@echo "... tests"
 	@echo "... Pr038/main.o"
 	@echo "... Pr038/main.i"
@@ -425,6 +535,18 @@ help:
 	@echo "... Pr041/main.o"
 	@echo "... Pr041/main.i"
 	@echo "... Pr041/main.s"
+	@echo "... Pr042/command_handler.o"
+	@echo "... Pr042/command_handler.i"
+	@echo "... Pr042/command_handler.s"
+	@echo "... Pr042/main.o"
+	@echo "... Pr042/main.i"
+	@echo "... Pr042/main.s"
+	@echo "... Pr042/word_input.o"
+	@echo "... Pr042/word_input.i"
+	@echo "... Pr042/word_input.s"
+	@echo "... Pr042/word_manager.o"
+	@echo "... Pr042/word_manager.i"
+	@echo "... Pr042/word_manager.s"
 	@echo "... Prac02/p29/main.o"
 	@echo "... Prac02/p29/main.i"
 	@echo "... Prac02/p29/main.s"

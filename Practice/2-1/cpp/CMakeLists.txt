@@ -18,3 +18,9 @@ add_executable(pr038
         Pr038/main.cpp
         Pr038/tools.cpp
 )
+add_executable(pr042
+        Pr042/main.cpp
+        Pr042/command_handler.cpp
+        Pr042/word_input.cpp
+        Pr042/word_manager.cpp
+)
