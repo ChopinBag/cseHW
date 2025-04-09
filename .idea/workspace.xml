@@ -22,13 +22,7 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated>
-      <config projectName="MovieRatings" targetName="datalab" />
-      <config projectName="MovieRatings" targetName="main" />
-      <config projectName="MovieRatings" targetName="pr041" />
-      <config projectName="MovieRatings" targetName="tests" />
-      <config projectName="MovieRatings" targetName="pr038" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -37,8 +31,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/System_Software/test_for_datalab.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/HW2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/HW2/tetris.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW2/tetris.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/HW2/tetris.h" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW2/tetris.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/HW2/ui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW2/ui.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/HW2/ui.h" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW2/ui.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr038/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Pr038/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr038/tools.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Pr038/tools.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr038/tools.h" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Pr038/tools.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/bmi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Pr041/bmi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/bmi.h" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Pr041/bmi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/input.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Pr041/input.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/input.h" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Pr041/input.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Pr041/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Pr041/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p27.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Prac02/p27.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p28.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Prac02/p28.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Prac02/p29/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/movie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Prac02/p29/movie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/Prac02/p29/movie.h" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/Prac02/p29/movie.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a118c17655ae86d19429.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a118c17655ae86d19429.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-811d8645bc8e1361f2d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-811d8645bc8e1361f2d5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3b45cda265e84ea0f4fe.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3b45cda265e84ea0f4fe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/index-2025-04-07T10-35-47-0964.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/index-2025-04-07T10-35-47-0964.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/target-datalab-Debug-164143f8673f305734c0.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/target-datalab-Debug-164143f8673f305734c0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/target-main-Debug-79f4733006ad71810bf0.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/target-main-Debug-79f4733006ad71810bf0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/target-pr038-Debug-470107bdf96039f53624.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/target-pr038-Debug-470107bdf96039f53624.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/target-pr041-Debug-4531635bce0af0359532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/target-pr041-Debug-4531635bce0af0359532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/target-tests-Debug-ca916fd2ab8078e3bafc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/target-tests-Debug-ca916fd2ab8078e3bafc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-c3c2475cac061fe03a43.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-c3c2475cac061fe03a43.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/Progress/6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/Progress/7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Progress/8" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/Progress/8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/System_Software/test_for_datalab.c.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/datalab.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/datalab.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/Pr038/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/Pr038/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/Pr038/main.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/Pr038/main.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/Pr038/tools.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/Pr038/tools.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/Pr038/tools.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/Pr038/tools.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr038.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/bmi.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/bmi.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/bmi.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/bmi.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/input.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/input.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/input.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/input.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/main.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/Pr041/main.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/pr041.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr041.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/tests.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/tests.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/datalab" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/datalab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp_study/cmake-build-debug/pr041" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/pr041" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,35 +240,10 @@
       <recent name="C:\Users\User\CLionProjects\cseHW\Practice\2-1\cpp_study\Prac02" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 애플리케이션.pr038">
+  <component name="RunManager" selected="C/C++ 파일.main.cpp">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="datalab" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="datalab" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="datalab">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="main">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pr038" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="pr038" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="pr038">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pr041" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="pr041" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="pr041">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="tests">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
@@ -185,11 +274,6 @@
       <item itemvalue="C/C++ 파일.main.cpp" />
       <item itemvalue="C/C++ 파일.p28.cpp" />
       <item itemvalue="C/C++ 파일.temp.cpp" />
-      <item itemvalue="CMake 애플리케이션.datalab" />
-      <item itemvalue="CMake 애플리케이션.main" />
-      <item itemvalue="CMake 애플리케이션.pr038" />
-      <item itemvalue="CMake 애플리케이션.pr041" />
-      <item itemvalue="CMake 애플리케이션.tests" />
     </list>
     <recent_temporary>
       <list>
@@ -351,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744092333351</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+      <option name="closed" value="true" />
+      <created>1744122334538</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1744122334538</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
