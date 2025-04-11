@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+C++_BINARY_DIR:STATIC=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug
+
+//Value Computed by CMake
+C++_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+C++_SOURCE_DIR:STATIC=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
