@@ -194,6 +194,91 @@ pr042/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/build
 .PHONY : pr042/fast
 
+#=============================================================================
+# Target rules for targets named HW3
+
+# Build rule for target.
+HW3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW3
+.PHONY : HW3
+
+# fast build rule for target.
+HW3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/build
+.PHONY : HW3/fast
+
+HW3/main.o: HW3/main.cpp.o
+.PHONY : HW3/main.o
+
+# target to build an object file
+HW3/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/main.cpp.o
+.PHONY : HW3/main.cpp.o
+
+HW3/main.i: HW3/main.cpp.i
+.PHONY : HW3/main.i
+
+# target to preprocess a source file
+HW3/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/main.cpp.i
+.PHONY : HW3/main.cpp.i
+
+HW3/main.s: HW3/main.cpp.s
+.PHONY : HW3/main.s
+
+# target to generate assembly for a file
+HW3/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/main.cpp.s
+.PHONY : HW3/main.cpp.s
+
+HW3/tetris.o: HW3/tetris.cpp.o
+.PHONY : HW3/tetris.o
+
+# target to build an object file
+HW3/tetris.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/tetris.cpp.o
+.PHONY : HW3/tetris.cpp.o
+
+HW3/tetris.i: HW3/tetris.cpp.i
+.PHONY : HW3/tetris.i
+
+# target to preprocess a source file
+HW3/tetris.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/tetris.cpp.i
+.PHONY : HW3/tetris.cpp.i
+
+HW3/tetris.s: HW3/tetris.cpp.s
+.PHONY : HW3/tetris.s
+
+# target to generate assembly for a file
+HW3/tetris.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/tetris.cpp.s
+.PHONY : HW3/tetris.cpp.s
+
+HW3/ui.o: HW3/ui.cpp.o
+.PHONY : HW3/ui.o
+
+# target to build an object file
+HW3/ui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/ui.cpp.o
+.PHONY : HW3/ui.cpp.o
+
+HW3/ui.i: HW3/ui.cpp.i
+.PHONY : HW3/ui.i
+
+# target to preprocess a source file
+HW3/ui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/ui.cpp.i
+.PHONY : HW3/ui.cpp.i
+
+HW3/ui.s: HW3/ui.cpp.s
+.PHONY : HW3/ui.s
+
+# target to generate assembly for a file
+HW3/ui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/ui.cpp.s
+.PHONY : HW3/ui.cpp.s
+
 Pr038/main.o: Pr038/main.cpp.o
 .PHONY : Pr038/main.o
 
@@ -514,12 +599,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... HW3"
 	@echo "... datalab"
 	@echo "... main"
 	@echo "... pr038"
 	@echo "... pr041"
 	@echo "... pr042"
 	@echo "... tests"
+	@echo "... HW3/main.o"
+	@echo "... HW3/main.i"
+	@echo "... HW3/main.s"
+	@echo "... HW3/tetris.o"
+	@echo "... HW3/tetris.i"
+	@echo "... HW3/tetris.s"
+	@echo "... HW3/ui.o"
+	@echo "... HW3/ui.i"
+	@echo "... HW3/ui.s"
 	@echo "... Pr038/main.o"
 	@echo "... Pr038/main.i"
 	@echo "... Pr038/main.s"

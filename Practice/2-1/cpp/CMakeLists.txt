@@ -24,3 +24,8 @@ add_executable(pr042
         Pr042/word_input.cpp
         Pr042/word_manager.cpp
 )
+add_executable(HW3
+        HW3/main.cpp
+        HW3/tetris.cpp
+        HW3/ui.cpp
+)
