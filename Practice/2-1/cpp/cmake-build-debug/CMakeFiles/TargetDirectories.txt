@@ -5,5 +5,6 @@
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr038.dir
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/pr042.dir
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir
+/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW4.dir
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

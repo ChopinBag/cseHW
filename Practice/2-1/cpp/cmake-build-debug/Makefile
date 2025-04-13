@@ -207,6 +207,19 @@ HW3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/build
 .PHONY : HW3/fast
 
+#=============================================================================
+# Target rules for targets named HW4
+
+# Build rule for target.
+HW4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW4
+.PHONY : HW4
+
+# fast build rule for target.
+HW4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/build
+.PHONY : HW4/fast
+
 HW3/main.o: HW3/main.cpp.o
 .PHONY : HW3/main.o
 
@@ -278,6 +291,78 @@ HW3/ui.s: HW3/ui.cpp.s
 HW3/ui.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/HW3/ui.cpp.s
 .PHONY : HW3/ui.cpp.s
+
+HW4/main.o: HW4/main.cpp.o
+.PHONY : HW4/main.o
+
+# target to build an object file
+HW4/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/main.cpp.o
+.PHONY : HW4/main.cpp.o
+
+HW4/main.i: HW4/main.cpp.i
+.PHONY : HW4/main.i
+
+# target to preprocess a source file
+HW4/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/main.cpp.i
+.PHONY : HW4/main.cpp.i
+
+HW4/main.s: HW4/main.cpp.s
+.PHONY : HW4/main.s
+
+# target to generate assembly for a file
+HW4/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/main.cpp.s
+.PHONY : HW4/main.cpp.s
+
+HW4/tetris.o: HW4/tetris.cpp.o
+.PHONY : HW4/tetris.o
+
+# target to build an object file
+HW4/tetris.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/tetris.cpp.o
+.PHONY : HW4/tetris.cpp.o
+
+HW4/tetris.i: HW4/tetris.cpp.i
+.PHONY : HW4/tetris.i
+
+# target to preprocess a source file
+HW4/tetris.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/tetris.cpp.i
+.PHONY : HW4/tetris.cpp.i
+
+HW4/tetris.s: HW4/tetris.cpp.s
+.PHONY : HW4/tetris.s
+
+# target to generate assembly for a file
+HW4/tetris.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/tetris.cpp.s
+.PHONY : HW4/tetris.cpp.s
+
+HW4/ui.o: HW4/ui.cpp.o
+.PHONY : HW4/ui.o
+
+# target to build an object file
+HW4/ui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/ui.cpp.o
+.PHONY : HW4/ui.cpp.o
+
+HW4/ui.i: HW4/ui.cpp.i
+.PHONY : HW4/ui.i
+
+# target to preprocess a source file
+HW4/ui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/ui.cpp.i
+.PHONY : HW4/ui.cpp.i
+
+HW4/ui.s: HW4/ui.cpp.s
+.PHONY : HW4/ui.s
+
+# target to generate assembly for a file
+HW4/ui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/HW4/ui.cpp.s
+.PHONY : HW4/ui.cpp.s
 
 Pr038/main.o: Pr038/main.cpp.o
 .PHONY : Pr038/main.o
@@ -600,6 +685,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HW3"
+	@echo "... HW4"
 	@echo "... datalab"
 	@echo "... main"
 	@echo "... pr038"
@@ -615,6 +701,15 @@ help:
 	@echo "... HW3/ui.o"
 	@echo "... HW3/ui.i"
 	@echo "... HW3/ui.s"
+	@echo "... HW4/main.o"
+	@echo "... HW4/main.i"
+	@echo "... HW4/main.s"
+	@echo "... HW4/tetris.o"
+	@echo "... HW4/tetris.i"
+	@echo "... HW4/tetris.s"
+	@echo "... HW4/ui.o"
+	@echo "... HW4/ui.i"
+	@echo "... HW4/ui.s"
 	@echo "... Pr038/main.o"
 	@echo "... Pr038/main.i"
 	@echo "... Pr038/main.s"

@@ -29,3 +29,8 @@ add_executable(HW3
         HW3/tetris.cpp
         HW3/ui.cpp
 )
+add_executable(HW4
+        HW4/main.cpp
+        HW4/tetris.cpp
+        HW4/ui.cpp
+)

@@ -39,8 +39,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt">
+    <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="HW003 Complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/HW3/tetris.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/HW3/tetris.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/HW3/tetris.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/HW3/tetris.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +138,17 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake 애플리케이션.HW3">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HW3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="HW3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="HW3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="HW4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="HW4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -198,6 +213,7 @@
       <item itemvalue="C/C++ 파일.temp.cpp" />
       <item itemvalue="CMake 애플리케이션.datalab" />
       <item itemvalue="CMake 애플리케이션.HW3" />
+      <item itemvalue="CMake 애플리케이션.HW4" />
       <item itemvalue="CMake 애플리케이션.main" />
       <item itemvalue="CMake 애플리케이션.pr038" />
       <item itemvalue="CMake 애플리케이션.pr041" />
@@ -236,7 +252,8 @@
       <workItem from="1743689508124" duration="800000" />
       <workItem from="1743690470299" duration="2190000" />
       <workItem from="1744343460914" duration="10367000" />
-      <workItem from="1744372598784" duration="1776000" />
+      <workItem from="1744372598784" duration="2397000" />
+      <workItem from="1744513649581" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="0325">
       <option name="closed" value="true" />
@@ -414,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744372018473</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="HW003 Complete">
+      <option name="closed" value="true" />
+      <created>1744374891728</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1744374891728</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +464,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0325" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Practice/2-1/cpp_study/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" />
+    <MESSAGE value="HW003 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW003 Complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -70,6 +70,7 @@ all: CMakeFiles/pr041.dir/all
 all: CMakeFiles/pr038.dir/all
 all: CMakeFiles/pr042.dir/all
 all: CMakeFiles/HW3.dir/all
+all: CMakeFiles/HW4.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -84,6 +85,7 @@ clean: CMakeFiles/pr041.dir/clean
 clean: CMakeFiles/pr038.dir/clean
 clean: CMakeFiles/pr042.dir/clean
 clean: CMakeFiles/HW3.dir/clean
+clean: CMakeFiles/HW4.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -93,7 +95,7 @@ clean: CMakeFiles/HW3.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=11,12,13 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -119,7 +121,7 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/datalab.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/datalab.dir/build.make CMakeFiles/datalab.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target datalab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target datalab"
 .PHONY : CMakeFiles/datalab.dir/all
 
 # Build rule for subdir invocation for target.
@@ -145,7 +147,7 @@ CMakeFiles/datalab.dir/clean:
 CMakeFiles/tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -171,7 +173,7 @@ CMakeFiles/tests.dir/clean:
 CMakeFiles/pr041.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr041.dir/build.make CMakeFiles/pr041.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16 "Built target pr041"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=17,18,19,20 "Built target pr041"
 .PHONY : CMakeFiles/pr041.dir/all
 
 # Build rule for subdir invocation for target.
@@ -197,7 +199,7 @@ CMakeFiles/pr041.dir/clean:
 CMakeFiles/pr038.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr038.dir/build.make CMakeFiles/pr038.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target pr038"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=14,15,16 "Built target pr038"
 .PHONY : CMakeFiles/pr038.dir/all
 
 # Build rule for subdir invocation for target.
@@ -223,7 +225,7 @@ CMakeFiles/pr038.dir/clean:
 CMakeFiles/pr042.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pr042.dir/build.make CMakeFiles/pr042.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=17,18,19,20,21 "Built target pr042"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=21,22,23,24,25 "Built target pr042"
 .PHONY : CMakeFiles/pr042.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,6 +269,32 @@ HW3: CMakeFiles/HW3.dir/rule
 CMakeFiles/HW3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/clean
 .PHONY : CMakeFiles/HW3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HW4.dir
+
+# All Build rule for target.
+CMakeFiles/HW4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8 "Built target HW4"
+.PHONY : CMakeFiles/HW4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HW4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/HW4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/imseung-u/CLionProjects/cseHW/Practice/2-1/cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HW4.dir/rule
+
+# Convenience name for target.
+HW4: CMakeFiles/HW4.dir/rule
+.PHONY : HW4
+
+# clean rule for target.
+CMakeFiles/HW4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/clean
+.PHONY : CMakeFiles/HW4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
