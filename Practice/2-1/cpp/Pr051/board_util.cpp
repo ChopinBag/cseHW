@@ -28,9 +28,9 @@ const std::vector<std::vector<int>>& get_board() {
 //Implement your code
 
 // struct       
-int count_full_lines(){
-    count_if(board.begin(),board.end(),[](auto li){
-        return all_of(li.begin(),li.end(), [](auto elem){
+int count_full_lines() {
+    return count_if(board.begin(), board.end(), [](const auto& row) {
+        return all_of(row.begin(), row.end(), [](int elem) {
             return elem == 1;
         });
     });
@@ -50,16 +50,27 @@ void remove_full_lines(){
     return;
 }
 
-vector<int> get_heights(){
-    vector<int> bin;
-    int n1 = 0;
-    int n2 = 0;
-    for_each(board.begin(),board.end(),[](auto i){
-        return for_each(i.begin(),i.end(),[](auto el){
-            bin[n2] = el? n1++: vector[n2++];
-        })
-    })
+vector<int> get_heights() {
+    const auto& board = get_board();
+    int height = board.size();
+    vector<int> bin(board[0].size(), 0);
+    int col = 0;
+    transform(bin.begin(), bin.end(), bin.begin(), [&](int) mutable {
+        auto it = find_if(board.begin(), board.end(), [&](const auto& row){
+            return row[col] == 1;
+        });
+        int result = (it != board.end()) * (height - distance(board.begin(), it));
+        ++col;
+        return result;
+    });
+    return bin;
+}
 
-
-    
+int count_empty() {
+    return accumulate(
+        board.begin(), board.end(), 0,
+        [](int total, const auto& row) {
+            return total + count(row.begin(), row.end(), 0);
+        }
+    );
 }
