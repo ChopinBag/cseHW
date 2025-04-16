@@ -55,9 +55,8 @@ vector<int> get_heights(){
     int n1 = 0;
     int n2 = 0;
     for_each(board.begin(),board.end(),[](auto i){
-        
         return for_each(i.begin(),i.end(),[](auto el){
-            vector[n2] = el? n1++: vector[n2++];
+            bin[n2] = el? n1++: vector[n2++];
         })
     })
 
