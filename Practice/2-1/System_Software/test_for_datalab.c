@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 // int bitAnd(int x, int y);
 // int getByte(int x, int n);
@@ -12,16 +11,16 @@
 // int isPositive(int x);
 // int isLessOrEqual(int x, int y);
 // int ilog2(int x);
-unsigned float_neg(unsigned uf);
-unsigned float_i2f(int x);
-unsigned float_twice(unsigned uf);
+// unsigned float_neg(unsigned uf);
+// unsigned float_i2f(int x);
+// unsigned float_twice(unsigned uf);
 
-int main() {
-    int n=-33;
-    int m=-4;
-    printf("%d",15>>4);
-    return 0;
-}
+// int main() {
+//     int n=-33;
+//     int m=-4;
+//     printf("%d",15>>4);
+//     return 0;
+// }
 
 int bitAnd(int x, int y) {
   return ~(~x|~y);
