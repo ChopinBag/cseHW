@@ -5,7 +5,7 @@ ENV APP_USER dreamhack
 ENV APP_PORT 5000
 
 # SET challenges
-ADD ./deploy /app
+COPY . /app
 WORKDIR /app
 
 # install flask, redis
