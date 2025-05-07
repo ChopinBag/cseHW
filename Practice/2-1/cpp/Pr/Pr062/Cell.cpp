@@ -23,30 +23,24 @@ Cell::Cell(double val)
     : type_{CellType::DOUBLE}, stringVal_{""}, intVal_{0}, doubleVal_{val} 
 {}
 
-bool Cell::isNumeric() const{
-    if(this->type_==CellType::INT || this->type_==CellType::DOUBLE)return true;
-    else return false;
+bool Cell::isNumeric() const {
+    return type_ == CellType::INT || type_ == CellType::DOUBLE;
 }
 
-bool Cell::isString() const{
-    if(this->type_==CellType::STRING)return true;
-    else return false;
+bool Cell::isString() const {
+    return type_ == CellType::STRING;
 }
 
-double Cell::getNumericValue() const{
-    if (isString())return 0.0;
-    else if (this->type_==CellType::INT) return intVal_;
-    else return doubleVal_;
+double Cell::getNumericValue() const {
+    if (isString()) return 0.0;
+    if (type_ == CellType::INT) return intVal_;
+    return doubleVal_;
 }
 
-string Cell::toString() const{
-    if(isString())return this->stringVal_;
-    else if(this->type_==CellType::INT){
-        return to_string(this->intVal_);
-    }else{
-        stringstream ss;
-        ss << fixed << setprecision(1);
-        ss << to_string(this->doubleVal_);
-        return ss.str();
-    }
+string Cell::toString() const {
+    if (isString()) return stringVal_;
+    if (type_ == CellType::INT) return to_string(intVal_);
+    stringstream ss;
+    ss << fixed << setprecision(1) << doubleVal_;
+    return ss.str();
 }

@@ -56,7 +56,7 @@ void test_case3() {
 
 int main() {
     int choice;
-    std::cout << "Select Test Case (1, 2, 3): ";
+    // std::cout << "Select Test Case (1, 2, 3): ";
     std::cin >> choice;
 
     if (choice == 1) {

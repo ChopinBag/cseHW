@@ -13,21 +13,23 @@ using namespace std;
 //public
 Excel::Excel(const Table& data): data_(data){}
 
-double Excel::average(int fromRow, int fromCol, int toRow, int toCol) const{
-    fromRow--;fromCol--;toRow--;toCol--; // 1-based
-    auto cells = getCellsInRange(fromRow,fromCol,toRow,toCol);
-    if(hasStringInRange(fromRow,fromCol,toRow,toCol)) return 0.0;
-    double sum = accumulate(cells.begin(),cells.end(),0.0,[](double acc, auto cell){
-        return acc+cell.getNumericValue();
+double Excel::average(int fromRow, int fromCol, int toRow, int toCol) const {
+    if (!isValidRange(fromRow, fromCol, toRow, toCol)) return 0.0;
+    fromRow--; fromCol--; toRow--; toCol--;
+    auto cells = getCellsInRange(fromRow, fromCol, toRow, toCol);
+    if (hasStringInRange(fromRow, fromCol, toRow, toCol)) return 0.0;
+    if (cells.empty()) return 0.0;
+    double sum = accumulate(cells.begin(), cells.end(), 0.0, [](double acc, const Cell& cell) {
+        return acc + cell.getNumericValue();
     });
     return sum / cells.size();
 }
 
 string Excel::display() const{
     stringstream ss;
-    for(int i=0; i < 3;++i){
-        for(int j= 0; j< 3; ++j){
-            ss << data_[i][j].toString();
+    for (const auto& row : data_){
+        for (const auto& cell : row){
+            ss << cell.toString() << "\t";
         }
         ss << '\n';
     }
@@ -35,24 +37,31 @@ string Excel::display() const{
 }
 
 //private
-vector<Cell> Excel::getCellsInRange(int fromRow, int fromCol, int toRow, int toCol) const{
+vector<Cell> Excel::getCellsInRange(int fromRow, int fromCol, int toRow, int toCol) const {
     vector<Cell> ret;
-    for(int i=--fromRow; i < --toRow;++i){
-        for(int j= --fromCol; j< --toCol; ++j){
+    if (fromRow > toRow) swap(fromRow, toRow);
+    if (fromCol > toCol) swap(fromCol, toCol);
+    for (int i = fromRow; i <= toRow; ++i) {
+        for (int j = fromCol; j <= toCol; ++j) {
             ret.push_back(data_[i][j]);
         }
     }
     return ret;
 }
 
-bool Excel::hasStringInRange(int fromRow, int fromCol, int toRow, int toCol) const{
-    auto cells = getCellsInRange(fromRow,fromCol,toRow,toCol);
-    return any_of(cells.begin(), cells.end(), [](auto cell){
+
+bool Excel::hasStringInRange(int fromRow, int fromCol, int toRow, int toCol) const {
+    auto cells = getCellsInRange(fromRow, fromCol, toRow, toCol);
+    return any_of(cells.begin(), cells.end(), [](const Cell& cell) {
         return cell.isString();
-    })
+    });
 }
 
+
 bool Excel::isValidRange(int fromRow, int fromCol, int toRow, int toCol) const{
-    if(fromRow < 1 || fromCol < 1 || --toRow > 3 || --toCol > 3) return false;
+    if (fromRow < 0 || fromCol < 0 || 
+        toRow >= data_.size() || toCol >= data_[0].size()) {
+        return false;
+    }
     else return true;
 }
