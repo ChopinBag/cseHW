@@ -7,11 +7,11 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
     <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="Cpp.Editor" type="string" />
     <option name="/Default/CodeEditing/TypingAssist/Cpp/CloseBlockComment/@EntryValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -24,13 +24,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="MovieRatings" targetName="datalab" />
-      <config projectName="MovieRatings" targetName="pr042" />
-      <config projectName="MovieRatings" targetName="main" />
-      <config projectName="MovieRatings" targetName="pr041" />
-      <config projectName="MovieRatings" targetName="HW3" />
-      <config projectName="MovieRatings" targetName="tests" />
-      <config projectName="MovieRatings" targetName="pr038" />
+      <config projectName="HW4" targetName="HW4" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -40,13 +34,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="HW003 Complete">
+      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/HW3/tetris.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/HW3/tetris.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/HW3/tetris.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/HW3/tetris.cpp.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/CMakeFiles/HW3.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/tetris.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/tetris.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/tetris_perplexity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/tetris_original.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/ui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/ui.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ChopinBag/cseHW.git&quot;,
-    &quot;accountId&quot;: &quot;dc635eba-b0cb-4af8-999d-8ac2eeda28e7&quot;
+    &quot;accountId&quot;: &quot;1dd160af-0e93-4f6a-b2b5-0e0320ead30b&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -92,43 +85,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;AutoCp Solution.main.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.main.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.p28.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.temp.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ 파일.main.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ 파일.temp.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ 파일.test.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.p29.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 애플리케이션.HW3.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 애플리케이션.datalab.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 애플리케이션.pr038.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 애플리케이션.pr041.executor&quot;: &quot;Run&quot;,
-    &quot;CMake 애플리케이션.pr042.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/CLionProjects/cseHW&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "AutoCp Solution.main.executor": "Run",
+    "C/C++ File.main.cpp.executor": "Run",
+    "C/C++ File.p28.cpp.executor": "Run",
+    "C/C++ File.temp.cpp.executor": "Run",
+    "C/C++ 파일.main.cpp.executor": "Run",
+    "C/C++ 파일.temp.cpp.executor": "Run",
+    "C/C++ 파일.test.cpp.executor": "Run",
+    "CMake Application.HW4.executor": "Run",
+    "CMake Application.main.executor": "Run",
+    "CMake Application.p29.executor": "Run",
+    "CMake 애플리케이션.HW3.executor": "Run",
+    "CMake 애플리케이션.HW4.executor": "Run",
+    "CMake 애플리케이션.datalab.executor": "Run",
+    "CMake 애플리케이션.pr038.executor": "Run",
+    "CMake 애플리케이션.pr041.executor": "Run",
+    "CMake 애플리케이션.pr042.executor": "Debug",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/User/CLionProjects/cseHW/Practice/2-1/cpp/HW/CMakeLists.txt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CPPToolchains",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Practice/2-1/cpp" />
@@ -137,48 +132,13 @@
       <recent name="C:\Users\User\CLionProjects\cseHW\Practice\2-1\cpp_study\Prac02" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 애플리케이션.HW3">
+  <component name="RunManager" selected="CMake 애플리케이션.HW4">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="HW3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="HW3">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HW4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="HW4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="HW4">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="datalab" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="datalab" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="datalab">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="main">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pr038" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="pr038" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="pr038">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pr041" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="pr041" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="pr041">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pr042" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="pr042" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="pr042">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovieRatings" TARGET_NAME="tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovieRatings" RUN_TARGET_NAME="tests">
+    <configuration name="HW4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HW4" TARGET_NAME="HW4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HW4" RUN_TARGET_NAME="HW4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -211,20 +171,8 @@
       <item itemvalue="C/C++ 파일.main.cpp" />
       <item itemvalue="C/C++ 파일.p28.cpp" />
       <item itemvalue="C/C++ 파일.temp.cpp" />
-      <item itemvalue="CMake 애플리케이션.datalab" />
-      <item itemvalue="CMake 애플리케이션.HW3" />
       <item itemvalue="CMake 애플리케이션.HW4" />
-      <item itemvalue="CMake 애플리케이션.main" />
-      <item itemvalue="CMake 애플리케이션.pr038" />
-      <item itemvalue="CMake 애플리케이션.pr041" />
-      <item itemvalue="CMake 애플리케이션.pr042" />
-      <item itemvalue="CMake 애플리케이션.tests" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="C/C++ 파일.main.cpp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -254,6 +202,10 @@
       <workItem from="1744343460914" duration="10367000" />
       <workItem from="1744372598784" duration="2397000" />
       <workItem from="1744513649581" duration="45000" />
+      <workItem from="1746769849397" duration="4317000" />
+      <workItem from="1746788721331" duration="247000" />
+      <workItem from="1746789105531" duration="307000" />
+      <workItem from="1746789427140" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="0325">
       <option name="closed" value="true" />

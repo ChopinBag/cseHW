@@ -1,5 +1,5 @@
 #include "ui.h"
-#include <ncurses.h>
+#include <ncurses/ncurses.h>
 
 void ui_init() {
     initscr();
