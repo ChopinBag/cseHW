@@ -13,6 +13,9 @@ public:
         for(auto it=lst.begin(); it != lst.end(); ++it){
             contacts[it->first] = it->second;
         }
+        // for_each(lst.begin(),lst.end(), [this](auto p){contacts.insert(p);});
+        // for(const auto& p : contact`s){contacts[p.first]=p.second;}
+        
     }
     void print() const {
         //멤버 함수를 구현하세요!
