@@ -53,6 +53,11 @@ size_t String::size() const{
     return len_;
 };
 
-String& String::append(const String& str){};
+String& String::append(const String& str){
+    len_ += str.len_;
+    new char[len_ + str.len_ + 1];
+};
 
-String& String::append(const char* str){};
+String& String::append(const char* str){
+
+};
