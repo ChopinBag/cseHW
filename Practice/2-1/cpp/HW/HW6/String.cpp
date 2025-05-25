@@ -16,7 +16,7 @@ String::String()
 }
 
 String::String(const char* s)
-  : len_{strlen(s)}, data_{new char[len_ + 1]}
+  : len_{strlen(s)}, data_{new char[strlen(s) + 1]}
 {
     copy(s, s + len_ + 1, data_);
     cout << "Constructor\n";
@@ -33,7 +33,7 @@ String::~String() noexcept
 }
 
 String::String(const String& s) noexcept
-  : len_{s.len_}, data_{new char[len_ + 1]}
+  : len_{s.len_}, data_{new char[s.len_ + 1]}
 {
     copy(s.data_, s.data_ + len_ + 1, data_);
     cout << "Copy Constructor\n";
