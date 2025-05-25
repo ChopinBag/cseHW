@@ -39,13 +39,19 @@ public:
             //Implement your code
             if (step_ > 0) return current_ < stop_;
             if (step_ < 0) return current_ > stop_;
+            return false;
         }
 
         bool operator==(const Iterator& other) const {
             //Implement your code
             if (step_ > 0) return current_ >= stop_;
             if (step_ < 0) return current_ <= stop_;
+            return false;
         }
+    };
+
+    [[nodiscard]] bool is_empty() const{
+        return start_ == stop_;
     };
 
     explicit Range(long long stop);
