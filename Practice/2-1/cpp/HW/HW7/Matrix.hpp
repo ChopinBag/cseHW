@@ -12,6 +12,26 @@ private:
 
 public:
     // Implement your code
+    Matrix() = default;
+    Matrix(size_t r, size_t c)
+    : row{r}, col{c} 
+    {};
+
+    Matrix(std::initializer_list<std::initializer_list<int>>);
+    //deep copy
+    Matrix(const Matrix&);
+    Matrix& operator=(const Matrix&);
+    ~Matrix();
+
+    Matrix operator+(const Matrix&) const;
+    Matrix operator-(const Matrix&) const;
+    Matrix operator*(const Matrix&) const;
+    bool operator==(const Matrix&) const;
+    bool operator!=(const Matrix&) const;
+    
+    Matrix inverse() const;
+
+    friend std::ostream& operator<<(std::ostream&, const Matrix&);
 
     [[nodiscard]] Matrix inverse() const;
 };
