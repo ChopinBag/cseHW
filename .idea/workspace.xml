@@ -7,11 +7,11 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
     <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="Cpp.Editor" type="string" />
     <option name="/Default/CodeEditing/TypingAssist/Cpp/CloseBlockComment/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -24,7 +24,8 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="HW4" targetName="HW4" />
+      <config projectName="HW7" targetName="HW7" />
+      <config projectName="HW7" targetName="HW4" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -34,12 +35,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf58690-b314-4794-917f-45197b4f20dc" name="변경" comment="HW003 Complete">
-      <change afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/tetris.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/tetris.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/tetris_perplexity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/tetris_original.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/ui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW4/ui.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW7/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW7/Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW7/Matrix.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/HW7/Matrix.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5feea85454d3be447e02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-da43d7ce8221cf6a7954.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-387f6f0aaa8e6565909f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/.cmake/api/v1/reply/index-2025-05-09T11-23-54-0723.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/HW4.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/HW4.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/HW4.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/2-1/cpp/HW/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +113,7 @@
     "CMake Application.p29.executor": "Run",
     "CMake 애플리케이션.HW3.executor": "Run",
     "CMake 애플리케이션.HW4.executor": "Run",
+    "CMake 애플리케이션.HW7.executor": "Run",
     "CMake 애플리케이션.datalab.executor": "Run",
     "CMake 애플리케이션.pr038.executor": "Run",
     "CMake 애플리케이션.pr041.executor": "Run",
@@ -120,7 +134,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CPPToolchains",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -132,13 +146,13 @@
       <recent name="C:\Users\User\CLionProjects\cseHW\Practice\2-1\cpp_study\Prac02" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 애플리케이션.HW4">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake 애플리케이션.HW7">
+    <configuration name="HW4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HW7" TARGET_NAME="HW4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HW7" RUN_TARGET_NAME="HW4">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HW4" TARGET_NAME="HW4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HW4" RUN_TARGET_NAME="HW4">
+    <configuration name="HW7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HW7" TARGET_NAME="HW7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HW7" RUN_TARGET_NAME="HW7">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -172,6 +186,7 @@
       <item itemvalue="C/C++ 파일.p28.cpp" />
       <item itemvalue="C/C++ 파일.temp.cpp" />
       <item itemvalue="CMake 애플리케이션.HW4" />
+      <item itemvalue="CMake 애플리케이션.HW7" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
@@ -206,6 +221,7 @@
       <workItem from="1746788721331" duration="247000" />
       <workItem from="1746789105531" duration="307000" />
       <workItem from="1746789427140" duration="1386000" />
+      <workItem from="1748183366537" duration="8196000" />
     </task>
     <task id="LOCAL-00001" summary="0325">
       <option name="closed" value="true" />

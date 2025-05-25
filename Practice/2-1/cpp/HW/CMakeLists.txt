@@ -18,3 +18,9 @@ else()
     message(FATAL_ERROR "ncursesw not found!")
 endif()
 
+project(HW7)
+
+add_executable(HW7
+        HW7/main.cpp
+        HW7/Matrix.cpp
+)

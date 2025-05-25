@@ -167,10 +167,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/msys64/mingw64/bin/g++.exe"
 		},
 		{
@@ -879,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "HW4"
+			"value" : "HW7"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1311,6 +1311,42 @@
 		},
 		{
 			"name" : "HW4_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/User/CLionProjects/cseHW/Practice/2-1/cpp/HW"
+		},
+		{
+			"name" : "HW7_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/User/CLionProjects/cseHW/Practice/2-1/cpp/HW/cmake-build-debug"
+		},
+		{
+			"name" : "HW7_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "HW7_SOURCE_DIR",
 			"properties" : 
 			[
 				{

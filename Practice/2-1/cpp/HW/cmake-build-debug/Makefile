@@ -128,6 +128,19 @@ HW4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW4.dir\build.make CMakeFiles/HW4.dir/build
 .PHONY : HW4/fast
 
+#=============================================================================
+# Target rules for targets named HW7
+
+# Build rule for target.
+HW7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HW7
+.PHONY : HW7
+
+# fast build rule for target.
+HW7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW7.dir\build.make CMakeFiles/HW7.dir/build
+.PHONY : HW7/fast
+
 HW4/main.obj: HW4/main.cpp.obj
 .PHONY : HW4/main.obj
 
@@ -200,6 +213,54 @@ HW4/ui.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW4.dir\build.make CMakeFiles/HW4.dir/HW4/ui.cpp.s
 .PHONY : HW4/ui.cpp.s
 
+HW7/Matrix.obj: HW7/Matrix.cpp.obj
+.PHONY : HW7/Matrix.obj
+
+# target to build an object file
+HW7/Matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW7.dir\build.make CMakeFiles/HW7.dir/HW7/Matrix.cpp.obj
+.PHONY : HW7/Matrix.cpp.obj
+
+HW7/Matrix.i: HW7/Matrix.cpp.i
+.PHONY : HW7/Matrix.i
+
+# target to preprocess a source file
+HW7/Matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW7.dir\build.make CMakeFiles/HW7.dir/HW7/Matrix.cpp.i
+.PHONY : HW7/Matrix.cpp.i
+
+HW7/Matrix.s: HW7/Matrix.cpp.s
+.PHONY : HW7/Matrix.s
+
+# target to generate assembly for a file
+HW7/Matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW7.dir\build.make CMakeFiles/HW7.dir/HW7/Matrix.cpp.s
+.PHONY : HW7/Matrix.cpp.s
+
+HW7/main.obj: HW7/main.cpp.obj
+.PHONY : HW7/main.obj
+
+# target to build an object file
+HW7/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW7.dir\build.make CMakeFiles/HW7.dir/HW7/main.cpp.obj
+.PHONY : HW7/main.cpp.obj
+
+HW7/main.i: HW7/main.cpp.i
+.PHONY : HW7/main.i
+
+# target to preprocess a source file
+HW7/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW7.dir\build.make CMakeFiles/HW7.dir/HW7/main.cpp.i
+.PHONY : HW7/main.cpp.i
+
+HW7/main.s: HW7/main.cpp.s
+.PHONY : HW7/main.s
+
+# target to generate assembly for a file
+HW7/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW7.dir\build.make CMakeFiles/HW7.dir/HW7/main.cpp.s
+.PHONY : HW7/main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -209,6 +270,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HW4
+	@echo ... HW7
 	@echo ... HW4/main.obj
 	@echo ... HW4/main.i
 	@echo ... HW4/main.s
@@ -218,6 +280,12 @@ help:
 	@echo ... HW4/ui.obj
 	@echo ... HW4/ui.i
 	@echo ... HW4/ui.s
+	@echo ... HW7/Matrix.obj
+	@echo ... HW7/Matrix.i
+	@echo ... HW7/Matrix.s
+	@echo ... HW7/main.obj
+	@echo ... HW7/main.i
+	@echo ... HW7/main.s
 .PHONY : help
 
 
