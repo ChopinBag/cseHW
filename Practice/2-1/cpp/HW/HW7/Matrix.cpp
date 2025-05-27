@@ -135,16 +135,9 @@ std::ostream& operator<<(std::ostream& os, const Matrix& m) {
 }
 
 bool Matrix::operator==(const Matrix& m) const {
-    if (this->row != m.row || this->col != m.col) {
-        return false;
-    }
+    if (this->row != m.row || this->col != m.col) return false;
     if (this->data == m.data) return true; 
-    if (!this->data || !m.data) { 
-        
-        
-        
-        return false;
-    }
+    if (!this->data || !m.data) return false;
     for (size_t i = 0; i < row * col; ++i) {
         if (this->data[i] != m.data[i]) {
             return false;
