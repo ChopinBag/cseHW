@@ -54,5 +54,6 @@
     "variant": "cpp",
     "algorithm": "cpp",
     "__config": "cpp"
-  }
+  },
+  "C_Cpp.default.compilerPath": "/usr/bin/clang"
 }

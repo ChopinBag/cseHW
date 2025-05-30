@@ -1,9 +1,8 @@
 #include <iostream>
+#include <memory>
 #include "LCD_Monitor.h"
 #include "LED_Monitor.h"
-
-using namespace std;
-
+#include "Printer.h"
 
 int main() {
     {
