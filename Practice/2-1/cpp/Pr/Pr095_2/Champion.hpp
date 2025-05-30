@@ -1,10 +1,11 @@
 #ifndef CHAMPION_HPP
 #define CHAMPION_HPP
 
-#include "Skill.h"
+#include "Skill.hpp"
 #include "GangplankSkill.hpp"
 #include "EzrealSkill.hpp"
 #include <memory>
+#include <iostream>
 
 enum class CHAMPION {GANGPLANK, EZREAL};
 

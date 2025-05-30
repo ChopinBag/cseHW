@@ -6,6 +6,12 @@
                 "${workspaceFolder}/**",
                 "/Users/imseung-u/Github/cseHW/Practice/2-1/cpp/Pr/Pr095_2"
             ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/Users/imseung-u/Github/cseHW/Practice/2-1/cpp/Pr/Pr095_2"
+                ]
+            },
             "defines": [],
             "macFrameworkPath": [
                 "/System/Library/Frameworks",

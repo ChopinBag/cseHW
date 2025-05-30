@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <map>
+#include <iostream>
 #include "Champion.hpp"
 
 using namespace std;
