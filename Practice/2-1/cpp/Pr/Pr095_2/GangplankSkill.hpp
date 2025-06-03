@@ -1,15 +1,13 @@
 #ifndef GANGPLANKSKILL_HPP
 #define GANGPLANKSKILL_HPP
 #include "Skill.hpp"
-#include "Champion.hpp"
+
 #include <iostream>
 
 using namespace std;
 
 class GangplankSkill : public Skill {
     public:
-        GangplankSkill() = default;
-        
         void q() override{
             cout << "TRIAL BY FIRE" << endl;
         };
@@ -22,6 +20,7 @@ class GangplankSkill : public Skill {
         void r() override{
             cout << "POWDER KEG" << endl;
         };
+        ~GangplankSkill() override = default;
 };
 
 #endif

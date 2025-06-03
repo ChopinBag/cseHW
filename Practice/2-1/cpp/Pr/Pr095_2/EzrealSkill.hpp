@@ -1,15 +1,13 @@
 #ifndef EZREALSKILL_HPP
 #define EZREALSKILL_HPP
 #include "Skill.hpp"
-#include "Champion.hpp"
+
 #include <iostream>
 
 using namespace std;
 
 class EzrealSkill : public Skill {
     public:
-        EzrealSkill() = default;
-
         void q() override{
             cout << "RISING SPELL FORCE" << endl;
         };
@@ -22,6 +20,7 @@ class EzrealSkill : public Skill {
         void r() override{
             cout << "ARCANE SHIFT" << endl;
         };
+        ~EzrealSkill() override = default;
 };
 
 #endif
