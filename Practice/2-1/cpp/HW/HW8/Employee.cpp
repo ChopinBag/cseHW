@@ -1,5 +1,6 @@
 #include "Employee.hpp"
 #include <utility>
+#include "Manager.hpp"
 
 using namespace std;
 
@@ -21,4 +22,12 @@ int Employee::getSalary() const{
 double Employee::calculatePay() const{
     return salary_ / 12;
 };
-void Employee::printDetails(std::ostream& os) const{};
+void Employee::printDetails(std::ostream& os) const{
+    if (dynamic_cast<const Manager*>(this)) {
+        os << "\t|---Manager: " << name_ << " " << id_ << " (Annual: " << salary_
+        << ", Monthly Pay: " << static_cast<int>(calculatePay()) << ")" << std::endl;
+    } else {
+        os << "\t|---" << name_ << " " << id_ << " (Annual: " << salary_
+        << ", Monthly Pay: " << static_cast<int>(calculatePay()) << ")" << std::endl;
+    }
+};
