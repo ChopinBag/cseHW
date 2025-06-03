@@ -5,9 +5,11 @@
 using namespace std;
 
 // Implement your code
+int Employee::nextId_ = 1;
+
 Employee::Employee(string name, int salary)
-: name_{name}, salary_{salary}
-{};
+    : id_{nextId_++}, name_{std::move(name)}, salary_{salary}
+{}
 
 string Employee::getName() const{
     return name_;

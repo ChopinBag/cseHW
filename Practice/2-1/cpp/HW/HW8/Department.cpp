@@ -32,6 +32,10 @@ unique_ptr<Employee> Department::removeEmployee(Employee* emp){
 
 void Department::printDetails(std::ostream& os) const{
     cout << name_ << endl;
+    if (manager_) {
+        os << "\t|---Manager: " << manager_->getName() << " " << manager_->getId() << " (Annual: " << manager_->getSalary()
+        << ", Monthly Pay: " << manager_->calculatePay() << ")" << std::endl;
+    }
     for (const auto& it : employees_){
         it->printDetails(os);
     }

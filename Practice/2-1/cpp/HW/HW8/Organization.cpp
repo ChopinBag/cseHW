@@ -3,7 +3,11 @@
 #include <algorithm>
 
 // Implement your code
+
 using namespace std;
+
+Organization::Organization(std::string name)
+    : name_(std::move(name)) {}
 
 void Organization::addDept(unique_ptr<Department> dept) {
     departments_.push_back(move(dept));
