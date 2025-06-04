@@ -1,5 +1,3 @@
-```markdown
-// filepath: /Users/imseung-u/Github/cseHW/README.md
 ## PNU CSE 에서 활용한 코드
 ### 그렇습니다.
 
@@ -17,4 +15,3 @@
 |--keeper_study
 |--System_Software
 |--Your_course_is
-```
