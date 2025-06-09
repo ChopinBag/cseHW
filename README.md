@@ -5,7 +5,6 @@
 ```
 cseHW
 ├── Contests
-│   └── Your_course_is
 ├── Keeper
 │   ├── 1-2
 │   │   └── XML-SVG_Hacking
